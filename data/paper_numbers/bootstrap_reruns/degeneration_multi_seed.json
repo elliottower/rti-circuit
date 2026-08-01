@@ -1,0 +1,721 @@
+{
+  "baseline": {
+    "heads": [],
+    "per_seed_rates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_rate": 0.0,
+    "std_rate": 0.0,
+    "ci": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "se": 0.0,
+      "n": 5
+    },
+    "per_seed": {
+      "42": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "123": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "456": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "789": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "2026": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  },
+  "backbone_ablation": {
+    "heads": [
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        11
+      ]
+    ],
+    "per_seed_rates": [
+      0.65,
+      0.8,
+      0.9,
+      0.7,
+      0.85
+    ],
+    "mean_rate": 0.78,
+    "std_rate": 0.09273618495495704,
+    "ci": {
+      "mean": 0.78,
+      "ci_lo": 0.7,
+      "ci_hi": 0.86,
+      "se": 0.0409756956133755,
+      "n": 5
+    },
+    "per_seed": {
+      "42": {
+        "rate": 0.65,
+        "per_prompt": [
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      "123": {
+        "rate": 0.8,
+        "per_prompt": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "456": {
+        "rate": 0.9,
+        "per_prompt": [
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "789": {
+        "rate": 0.7,
+        "per_prompt": [
+          false,
+          true,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      "2026": {
+        "rate": 0.85,
+        "per_prompt": [
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      }
+    }
+  },
+  "full_circuit_ablation": {
+    "heads": [
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        11
+      ]
+    ],
+    "per_seed_rates": [
+      0.9,
+      0.9,
+      0.85,
+      0.7,
+      0.7
+    ],
+    "mean_rate": 0.8099999999999999,
+    "std_rate": 0.09165151389911684,
+    "ci": {
+      "mean": 0.8099999999999999,
+      "ci_lo": 0.7300000000000001,
+      "ci_hi": 0.89,
+      "se": 0.04110642712520757,
+      "n": 5
+    },
+    "per_seed": {
+      "42": {
+        "rate": 0.9,
+        "per_prompt": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "123": {
+        "rate": 0.9,
+        "per_prompt": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "456": {
+        "rate": 0.85,
+        "per_prompt": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "789": {
+        "rate": 0.7,
+        "per_prompt": [
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "2026": {
+        "rate": 0.7,
+        "per_prompt": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true
+        ]
+      }
+    }
+  },
+  "preregistered_random_15": {
+    "heads": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        10,
+        8
+      ]
+    ],
+    "per_seed_rates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_rate": 0.0,
+    "std_rate": 0.0,
+    "ci": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "se": 0.0,
+      "n": 5
+    },
+    "per_seed": {
+      "42": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "123": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "456": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "789": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "2026": {
+        "rate": 0.0,
+        "per_prompt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+}

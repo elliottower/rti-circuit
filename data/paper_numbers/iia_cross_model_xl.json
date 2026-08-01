@@ -1,0 +1,313 @@
+{
+  "ioi": {
+    "task": "ioi",
+    "model": "gpt2-xl",
+    "n_pairs": 80,
+    "roles": {
+      "PTH": {
+        "n_heads": 2,
+        "heads": [
+          "L12H21",
+          "L15H19"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 80,
+        "n_skipped_pairs": 0,
+        "mean_logit_shift_predicted": 0.16288132667541505,
+        "mean_logit_shift_control": 0.008574854135513305
+      },
+      "S-Inh": {
+        "n_heads": 7,
+        "heads": [
+          "L35H9",
+          "L36H9",
+          "L37H0",
+          "L39H12",
+          "L41H16",
+          "L42H22",
+          "L44H21"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 80,
+        "n_skipped_pairs": 0,
+        "mean_logit_shift_predicted": -0.38664678335189817,
+        "mean_logit_shift_control": -0.0014178669452667228
+      },
+      "NM": {
+        "n_heads": 1,
+        "heads": [
+          "L27H23"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 80,
+        "n_skipped_pairs": 0,
+        "mean_logit_shift_predicted": 0.014619898796081544,
+        "mean_logit_shift_control": 0.02253603100776672
+      }
+    },
+    "full_circuit": {
+      "n_heads": 10,
+      "iia_predicted": 0.0,
+      "iia_control_mean": 0.0,
+      "iia_control_std": 0.0,
+      "iia_control_all": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta": 0.0,
+      "n_valid_pairs": 80,
+      "n_skipped_pairs": 0,
+      "mean_logit_shift_predicted": -0.19863052368164064,
+      "mean_logit_shift_control": 0.035894370079040526
+    }
+  },
+  "sva": {
+    "task": "sva",
+    "model": "gpt2-xl",
+    "n_pairs": 80,
+    "roles": {
+      "embed": {
+        "n_heads": 1,
+        "heads": [
+          "L33H22"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 70,
+        "n_skipped_pairs": 10,
+        "mean_logit_shift_predicted": 5.7220458984375e-07,
+        "mean_logit_shift_control": 0.0004305192402430942
+      },
+      "encode": {
+        "n_heads": 5,
+        "heads": [
+          "L1H4",
+          "L6H4",
+          "L6H14",
+          "L6H23",
+          "L12H22"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 70,
+        "n_skipped_pairs": 10,
+        "mean_logit_shift_predicted": 0.010310534068516322,
+        "mean_logit_shift_control": 0.009242454937526156
+      },
+      "route": {
+        "n_heads": 1,
+        "heads": [
+          "L44H16"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 70,
+        "n_skipped_pairs": 10,
+        "mean_logit_shift_predicted": 5.197525024414063e-06,
+        "mean_logit_shift_control": 0.00033380678721836636
+      },
+      "output": {
+        "n_heads": 1,
+        "heads": [
+          "L44H11"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 70,
+        "n_skipped_pairs": 10,
+        "mean_logit_shift_predicted": 0.00014766624995640347,
+        "mean_logit_shift_control": 0.003750782353537424
+      }
+    },
+    "full_circuit": {
+      "n_heads": 8,
+      "iia_predicted": 0.0,
+      "iia_control_mean": 0.0,
+      "iia_control_std": 0.0,
+      "iia_control_all": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta": 0.0,
+      "n_valid_pairs": 70,
+      "n_skipped_pairs": 10,
+      "mean_logit_shift_predicted": 0.010454286847795759,
+      "mean_logit_shift_control": 0.017160888739994596
+    }
+  },
+  "greater_than": {
+    "task": "greater_than",
+    "model": "gpt2-xl",
+    "n_pairs": 80,
+    "roles": {
+      "early_gt": {
+        "n_heads": 3,
+        "heads": [
+          "L7H23",
+          "L17H1",
+          "L28H24"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0016666666666666666,
+        "iia_control_std": 0.004999999999999999,
+        "iia_control_all": [
+          0.016666666666666666,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": -0.0016666666666666666,
+        "n_valid_pairs": 60,
+        "n_skipped_pairs": 20,
+        "mean_logit_shift_predicted": 0.0010527610778808595,
+        "mean_logit_shift_control": -7.334709167480483e-05
+      }
+    },
+    "full_circuit": {
+      "n_heads": 3,
+      "iia_predicted": 0.0,
+      "iia_control_mean": 0.01,
+      "iia_control_std": 0.03,
+      "iia_control_all": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta": -0.01,
+      "n_valid_pairs": 60,
+      "n_skipped_pairs": 20,
+      "mean_logit_shift_predicted": 0.0010527610778808595,
+      "mean_logit_shift_control": 0.00889419158299764
+    }
+  }
+}

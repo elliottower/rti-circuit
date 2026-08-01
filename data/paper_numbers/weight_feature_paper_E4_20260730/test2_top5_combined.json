@@ -1,0 +1,209 @@
+{
+  "test": "2_top5_combined",
+  "auroc": 0.8832041343669251,
+  "selected_features": [
+    {
+      "feature": "ov_ica9_signed",
+      "auroc": 0.759173126614987,
+      "sign": 1
+    },
+    {
+      "feature": "ov_top_in_ica2",
+      "auroc": 0.7312661498708011,
+      "sign": 1
+    },
+    {
+      "feature": "ov_clust4v7_signed",
+      "auroc": 0.7312661498708011,
+      "sign": 1
+    },
+    {
+      "feature": "ov_clust7v13_signed",
+      "auroc": 0.7286821705426356,
+      "sign": 1
+    },
+    {
+      "feature": "ov_top_in_ica3",
+      "auroc": 0.7281653746770026,
+      "sign": 1
+    }
+  ],
+  "top25_ranked": [
+    {
+      "head": "L11H11",
+      "score": 12.289155597413812,
+      "in_circuit": true,
+      "tier": "readout"
+    },
+    {
+      "head": "L11H10",
+      "score": 11.919541086791087,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L11H9",
+      "score": 8.611659161784514,
+      "in_circuit": true,
+      "tier": "readout"
+    },
+    {
+      "head": "L11H3",
+      "score": 8.176905388459824,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L8H7",
+      "score": 4.543739589661163,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L10H9",
+      "score": 4.543690861978606,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L0H6",
+      "score": 4.455057899105653,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L10H10",
+      "score": 4.056036744076748,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L11H2",
+      "score": 3.9946350845531526,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L10H11",
+      "score": 3.756409979895691,
+      "in_circuit": true,
+      "tier": "readout"
+    },
+    {
+      "head": "L6H9",
+      "score": 3.5896685064135063,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L9H10",
+      "score": 3.5754242369123936,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L8H8",
+      "score": 3.5251857926078705,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L0H8",
+      "score": 3.4402003910599874,
+      "in_circuit": true,
+      "tier": "backbone"
+    },
+    {
+      "head": "L9H3",
+      "score": 3.3667859864024923,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L3H11",
+      "score": 3.072044804182631,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L10H5",
+      "score": 2.704094515012134,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L7H1",
+      "score": 2.6433726986870525,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L9H2",
+      "score": 2.466617381438592,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L9H8",
+      "score": 2.3223507054159525,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L9H0",
+      "score": 2.3038817893341736,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L8H5",
+      "score": 2.2742682088642034,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L2H4",
+      "score": 2.213702029135691,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L4H11",
+      "score": 2.1261454170405285,
+      "in_circuit": true,
+      "tier": "detector"
+    },
+    {
+      "head": "L5H7",
+      "score": 1.9890122262753118,
+      "in_circuit": true,
+      "tier": "copier"
+    }
+  ],
+  "topk_stats": {
+    "top10": {
+      "tp": 4,
+      "fp": 6,
+      "recall": 0.26666666666666666,
+      "precision": 0.4
+    },
+    "top15": {
+      "tp": 7,
+      "fp": 8,
+      "recall": 0.4666666666666667,
+      "precision": 0.4666666666666667
+    },
+    "top20": {
+      "tp": 7,
+      "fp": 13,
+      "recall": 0.4666666666666667,
+      "precision": 0.35
+    },
+    "top25": {
+      "tp": 9,
+      "fp": 16,
+      "recall": 0.6,
+      "precision": 0.36
+    }
+  }
+}

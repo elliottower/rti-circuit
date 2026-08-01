@@ -1,0 +1,558 @@
+{
+  "background": {
+    "mean": 10.436306083393017,
+    "std": 6.947362928469295,
+    "median": 8.857492923736572,
+    "p90": 15.75506763458252,
+    "p95": 21.03942575454712,
+    "p99": 40.87418270111042,
+    "n_edges": 9504
+  },
+  "pathways": {
+    "backbone_to_detector": {
+      "circuit_edges": [
+        {
+          "sender": "L0H8",
+          "receiver": "L4H11",
+          "score": 76.02887725830078
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L4H11",
+          "score": 111.1792984008789
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L4H11",
+          "score": 130.39877319335938
+        }
+      ],
+      "circuit_min": 76.02887725830078,
+      "circuit_max": 130.39877319335938,
+      "circuit_mean": 105.86898295084636,
+      "noncircuit_max": 56.676368713378906,
+      "noncircuit_mean": 39.050718519422745,
+      "noncircuit_p95": 54.22958221435547,
+      "gap": 19.352508544921875,
+      "gap_ratio": 1.3414563950416527,
+      "n_circuit": 3,
+      "n_noncircuit": 9
+    },
+    "backbone_to_copier": {
+      "circuit_edges": [
+        {
+          "sender": "L0H8",
+          "receiver": "L4H0",
+          "score": 31.064590454101562
+        },
+        {
+          "sender": "L0H8",
+          "receiver": "L5H6",
+          "score": 20.357484817504883
+        },
+        {
+          "sender": "L0H8",
+          "receiver": "L5H7",
+          "score": 21.335044860839844
+        },
+        {
+          "sender": "L0H8",
+          "receiver": "L7H0",
+          "score": 27.530174255371094
+        },
+        {
+          "sender": "L0H8",
+          "receiver": "L8H4",
+          "score": 26.78700828552246
+        },
+        {
+          "sender": "L0H8",
+          "receiver": "L8H7",
+          "score": 30.814128875732422
+        },
+        {
+          "sender": "L0H8",
+          "receiver": "L9H3",
+          "score": 32.967689514160156
+        },
+        {
+          "sender": "L0H8",
+          "receiver": "L9H10",
+          "score": 30.61920928955078
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L4H0",
+          "score": 44.283599853515625
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L5H6",
+          "score": 26.387531280517578
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L5H7",
+          "score": 28.75020980834961
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L7H0",
+          "score": 39.015525817871094
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L8H4",
+          "score": 38.335391998291016
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L8H7",
+          "score": 44.200130462646484
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L9H3",
+          "score": 47.7150764465332
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L9H10",
+          "score": 44.69156265258789
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L4H0",
+          "score": 52.2363166809082
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L5H6",
+          "score": 29.67793083190918
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L5H7",
+          "score": 33.06024932861328
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L7H0",
+          "score": 45.040653228759766
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L8H4",
+          "score": 44.041893005371094
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L8H7",
+          "score": 51.21999740600586
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L9H3",
+          "score": 55.493865966796875
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L9H10",
+          "score": 51.304832458496094
+        }
+      ],
+      "circuit_min": 20.357484817504883,
+      "circuit_max": 55.493865966796875,
+      "circuit_mean": 37.37208739916483,
+      "noncircuit_max": 25.09126091003418,
+      "noncircuit_mean": 16.20501176516215,
+      "noncircuit_p95": 23.061291122436526,
+      "gap": -4.733776092529297,
+      "gap_ratio": 0.8113376561862531,
+      "n_circuit": 24,
+      "n_noncircuit": 72
+    },
+    "backbone_to_readout": {
+      "circuit_edges": [
+        {
+          "sender": "L0H8",
+          "receiver": "L10H11",
+          "score": 19.61149787902832
+        },
+        {
+          "sender": "L0H8",
+          "receiver": "L11H9",
+          "score": 30.26622200012207
+        },
+        {
+          "sender": "L0H8",
+          "receiver": "L11H11",
+          "score": 26.80498695373535
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L10H11",
+          "score": 24.4029541015625
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L11H9",
+          "score": 32.269535064697266
+        },
+        {
+          "sender": "L0H9",
+          "receiver": "L11H11",
+          "score": 36.74870681762695
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L10H11",
+          "score": 24.838178634643555
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L11H9",
+          "score": 31.55708122253418
+        },
+        {
+          "sender": "L0H11",
+          "receiver": "L11H11",
+          "score": 39.86148452758789
+        }
+      ],
+      "circuit_min": 19.61149787902832,
+      "circuit_max": 39.86148452758789,
+      "circuit_mean": 29.595627466837566,
+      "noncircuit_max": 27.17145538330078,
+      "noncircuit_mean": 18.57851872620759,
+      "noncircuit_p95": 24.624117469787596,
+      "gap": -7.559957504272461,
+      "gap_ratio": 0.7217684000497555,
+      "n_circuit": 9,
+      "n_noncircuit": 27
+    },
+    "detector_to_copier": {
+      "circuit_edges": [
+        {
+          "sender": "L4H11",
+          "receiver": "L5H6",
+          "score": 9.776450157165527
+        },
+        {
+          "sender": "L4H11",
+          "receiver": "L5H7",
+          "score": 4.426944732666016
+        },
+        {
+          "sender": "L4H11",
+          "receiver": "L7H0",
+          "score": 4.610672473907471
+        },
+        {
+          "sender": "L4H11",
+          "receiver": "L8H4",
+          "score": 4.029455184936523
+        },
+        {
+          "sender": "L4H11",
+          "receiver": "L8H7",
+          "score": 4.108630180358887
+        },
+        {
+          "sender": "L4H11",
+          "receiver": "L9H3",
+          "score": 3.584550380706787
+        },
+        {
+          "sender": "L4H11",
+          "receiver": "L9H10",
+          "score": 3.7624125480651855
+        }
+      ],
+      "circuit_min": 3.584550380706787,
+      "circuit_max": 9.776450157165527,
+      "circuit_mean": 4.899873665400913,
+      "noncircuit_max": 13.063389778137207,
+      "noncircuit_mean": 7.6493895704096015,
+      "noncircuit_p95": 10.79896869659424,
+      "gap": -9.47883939743042,
+      "gap_ratio": 0.274396649076939,
+      "n_circuit": 7,
+      "n_noncircuit": 77
+    },
+    "detector_to_readout": {
+      "circuit_edges": [
+        {
+          "sender": "L4H11",
+          "receiver": "L10H11",
+          "score": 6.236751079559326
+        },
+        {
+          "sender": "L4H11",
+          "receiver": "L11H9",
+          "score": 8.969903945922852
+        },
+        {
+          "sender": "L4H11",
+          "receiver": "L11H11",
+          "score": 5.090068817138672
+        }
+      ],
+      "circuit_min": 5.090068817138672,
+      "circuit_max": 8.969903945922852,
+      "circuit_mean": 6.76557461420695,
+      "noncircuit_max": 13.202269554138184,
+      "noncircuit_mean": 9.606082193779223,
+      "noncircuit_p95": 12.779481887817383,
+      "gap": -8.112200736999512,
+      "gap_ratio": 0.3855449849941305,
+      "n_circuit": 3,
+      "n_noncircuit": 33
+    },
+    "copier_to_readout": {
+      "circuit_edges": [
+        {
+          "sender": "L4H0",
+          "receiver": "L10H11",
+          "score": 8.186979293823242
+        },
+        {
+          "sender": "L4H0",
+          "receiver": "L11H9",
+          "score": 6.924840927124023
+        },
+        {
+          "sender": "L4H0",
+          "receiver": "L11H11",
+          "score": 6.595086097717285
+        },
+        {
+          "sender": "L5H6",
+          "receiver": "L10H11",
+          "score": 7.913460731506348
+        },
+        {
+          "sender": "L5H6",
+          "receiver": "L11H9",
+          "score": 11.119071960449219
+        },
+        {
+          "sender": "L5H6",
+          "receiver": "L11H11",
+          "score": 6.649055480957031
+        },
+        {
+          "sender": "L5H7",
+          "receiver": "L10H11",
+          "score": 8.344261169433594
+        },
+        {
+          "sender": "L5H7",
+          "receiver": "L11H9",
+          "score": 7.307977199554443
+        },
+        {
+          "sender": "L5H7",
+          "receiver": "L11H11",
+          "score": 7.904428958892822
+        },
+        {
+          "sender": "L7H0",
+          "receiver": "L10H11",
+          "score": 10.49754810333252
+        },
+        {
+          "sender": "L7H0",
+          "receiver": "L11H9",
+          "score": 10.366692543029785
+        },
+        {
+          "sender": "L7H0",
+          "receiver": "L11H11",
+          "score": 8.24435043334961
+        },
+        {
+          "sender": "L8H4",
+          "receiver": "L10H11",
+          "score": 8.079296112060547
+        },
+        {
+          "sender": "L8H4",
+          "receiver": "L11H9",
+          "score": 7.358007907867432
+        },
+        {
+          "sender": "L8H4",
+          "receiver": "L11H11",
+          "score": 8.546826362609863
+        },
+        {
+          "sender": "L8H7",
+          "receiver": "L10H11",
+          "score": 12.462535858154297
+        },
+        {
+          "sender": "L8H7",
+          "receiver": "L11H9",
+          "score": 10.871529579162598
+        },
+        {
+          "sender": "L8H7",
+          "receiver": "L11H11",
+          "score": 9.610393524169922
+        },
+        {
+          "sender": "L9H3",
+          "receiver": "L10H11",
+          "score": 12.382378578186035
+        },
+        {
+          "sender": "L9H3",
+          "receiver": "L11H9",
+          "score": 11.990184783935547
+        },
+        {
+          "sender": "L9H3",
+          "receiver": "L11H11",
+          "score": 11.065245628356934
+        },
+        {
+          "sender": "L9H10",
+          "receiver": "L10H11",
+          "score": 9.917448043823242
+        },
+        {
+          "sender": "L9H10",
+          "receiver": "L11H9",
+          "score": 8.181541442871094
+        },
+        {
+          "sender": "L9H10",
+          "receiver": "L11H11",
+          "score": 8.976164817810059
+        }
+      ],
+      "circuit_min": 6.595086097717285,
+      "circuit_max": 12.462535858154297,
+      "circuit_mean": 9.145637730757395,
+      "noncircuit_max": 15.342021942138672,
+      "noncircuit_mean": 10.084697087605795,
+      "noncircuit_p95": 13.803382635116577,
+      "gap": -8.746935844421387,
+      "gap_ratio": 0.429870725161923,
+      "n_circuit": 24,
+      "n_noncircuit": 156
+    }
+  },
+  "threshold_sensitivity": {
+    "P90": {
+      "threshold": 15.75506763458252,
+      "n_circuit_edges": 36,
+      "n_noncircuit_edges": 915,
+      "circuit_heads_involved": [
+        "L0H11",
+        "L0H8",
+        "L0H9",
+        "L10H11",
+        "L11H11",
+        "L11H9",
+        "L4H0",
+        "L4H11",
+        "L5H6",
+        "L5H7",
+        "L7H0",
+        "L8H4",
+        "L8H7",
+        "L9H10",
+        "L9H3"
+      ],
+      "n_circuit_heads": 15
+    },
+    "P92": {
+      "threshold": 17.215784301757818,
+      "n_circuit_edges": 36,
+      "n_noncircuit_edges": 725,
+      "circuit_heads_involved": [
+        "L0H11",
+        "L0H8",
+        "L0H9",
+        "L10H11",
+        "L11H11",
+        "L11H9",
+        "L4H0",
+        "L4H11",
+        "L5H6",
+        "L5H7",
+        "L7H0",
+        "L8H4",
+        "L8H7",
+        "L9H10",
+        "L9H3"
+      ],
+      "n_circuit_heads": 15
+    },
+    "P95": {
+      "threshold": 21.03942575454712,
+      "n_circuit_edges": 34,
+      "n_noncircuit_edges": 442,
+      "circuit_heads_involved": [
+        "L0H11",
+        "L0H8",
+        "L0H9",
+        "L10H11",
+        "L11H11",
+        "L11H9",
+        "L4H0",
+        "L4H11",
+        "L5H6",
+        "L5H7",
+        "L7H0",
+        "L8H4",
+        "L8H7",
+        "L9H10",
+        "L9H3"
+      ],
+      "n_circuit_heads": 15
+    },
+    "P97": {
+      "threshold": 26.175416297912594,
+      "n_circuit_edges": 31,
+      "n_noncircuit_edges": 255,
+      "circuit_heads_involved": [
+        "L0H11",
+        "L0H8",
+        "L0H9",
+        "L11H11",
+        "L11H9",
+        "L4H0",
+        "L4H11",
+        "L5H6",
+        "L5H7",
+        "L7H0",
+        "L8H4",
+        "L8H7",
+        "L9H10",
+        "L9H3"
+      ],
+      "n_circuit_heads": 14
+    },
+    "P99": {
+      "threshold": 40.87418270111042,
+      "n_circuit_edges": 13,
+      "n_noncircuit_edges": 83,
+      "circuit_heads_involved": [
+        "L0H11",
+        "L0H8",
+        "L0H9",
+        "L4H0",
+        "L4H11",
+        "L7H0",
+        "L8H4",
+        "L8H7",
+        "L9H10",
+        "L9H3"
+      ],
+      "n_circuit_heads": 10
+    }
+  }
+}

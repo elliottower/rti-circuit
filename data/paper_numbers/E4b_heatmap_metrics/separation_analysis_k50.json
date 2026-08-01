@@ -1,0 +1,7240 @@
+{
+  "diag_score": {
+    "tier_stats": {
+      "backbone": {
+        "mean": 0.011978382299951955,
+        "std": 0.08185673014056173,
+        "min": -0.1012291898897716,
+        "max": 0.08953021372459373,
+        "values": {
+          "L0H8": -0.1012291898897716,
+          "L0H9": 0.047634123065033736,
+          "L0H11": 0.08953021372459373
+        }
+      },
+      "detector": {
+        "mean": 0.21133473790421778,
+        "std": 0.0,
+        "min": 0.21133473790421778,
+        "max": 0.21133473790421778,
+        "values": {
+          "L4H11": 0.21133473790421778
+        }
+      },
+      "copier": {
+        "mean": 0.6515231459450965,
+        "std": 0.43405619867174194,
+        "min": 0.006256571588467576,
+        "max": 1.258952350324514,
+        "values": {
+          "L4H0": 0.006256571588467576,
+          "L5H6": 0.10319401432665026,
+          "L5H7": 0.43508603329561196,
+          "L7H0": 0.6614195336614337,
+          "L8H4": 0.7713424669479837,
+          "L8H7": 0.7295628191986863,
+          "L9H3": 1.2463713782174246,
+          "L9H10": 1.258952350324514
+        }
+      },
+      "readout": {
+        "mean": 1.062400378921405,
+        "std": 0.7710543774830014,
+        "min": 0.49154040049533454,
+        "max": 2.1524274370621663,
+        "values": {
+          "L10H11": 0.49154040049533454,
+          "L11H9": 0.5432332992067143,
+          "L11H11": 2.1524274370621663
+        }
+      },
+      "non_circuit": {
+        "mean": 0.16450493190275925,
+        "std": 0.8070230252880344,
+        "n": 129
+      },
+      "threshold_bottom": [
+        {
+          "k": 5,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 5,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 8,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 8,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 10,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 10,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 15,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 15,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 20,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 20,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 25,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 25,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        }
+      ],
+      "threshold_top": [
+        {
+          "k": 5,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 4,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.2
+        },
+        {
+          "k": 8,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 7,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.125
+        },
+        {
+          "k": 10,
+          "tp_circuit": 3,
+          "tp_copier": 2,
+          "fp": 7,
+          "recall_circuit": 0.2,
+          "recall_copier": 0.25,
+          "precision": 0.3
+        },
+        {
+          "k": 15,
+          "tp_circuit": 3,
+          "tp_copier": 2,
+          "fp": 12,
+          "recall_circuit": 0.2,
+          "recall_copier": 0.25,
+          "precision": 0.2
+        },
+        {
+          "k": 20,
+          "tp_circuit": 5,
+          "tp_copier": 4,
+          "fp": 15,
+          "recall_circuit": 0.3333333333333333,
+          "recall_copier": 0.5,
+          "precision": 0.25
+        },
+        {
+          "k": 25,
+          "tp_circuit": 6,
+          "tp_copier": 5,
+          "fp": 19,
+          "recall_circuit": 0.4,
+          "recall_copier": 0.625,
+          "precision": 0.24
+        }
+      ]
+    },
+    "ranked": [
+      {
+        "head": "L6H6",
+        "value": -2.358668407712664,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H0",
+        "value": -1.7987466574688347,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H5",
+        "value": -1.4149832575661796,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H11",
+        "value": -1.3680495129799357,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H10",
+        "value": -1.262340060837415,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H9",
+        "value": -1.1337696686569525,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H10",
+        "value": -1.0212190715634093,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H11",
+        "value": -0.8650908300949602,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H11",
+        "value": -0.830089195309853,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H8",
+        "value": -0.7637721607636432,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H7",
+        "value": -0.7526856048253118,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H5",
+        "value": -0.7198943378000844,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H10",
+        "value": -0.6830777955541806,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H4",
+        "value": -0.5580417752752499,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H6",
+        "value": -0.49536083367406103,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H4",
+        "value": -0.4680329433265997,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H1",
+        "value": -0.3997466834467285,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H1",
+        "value": -0.3897730289430034,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H11",
+        "value": -0.37827154565830623,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H5",
+        "value": -0.34818267676295067,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H1",
+        "value": -0.348151079586574,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H10",
+        "value": -0.3361357607160296,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H6",
+        "value": -0.3012364106032313,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H8",
+        "value": -0.21884494443329014,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H8",
+        "value": -0.20682492968987445,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H1",
+        "value": -0.19788420804909296,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H4",
+        "value": -0.19276035819126636,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H0",
+        "value": -0.19176622828050535,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H9",
+        "value": -0.1785605638306968,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H5",
+        "value": -0.1649884612098032,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H8",
+        "value": -0.15279740522102433,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H3",
+        "value": -0.1383412717678109,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H3",
+        "value": -0.13640730739856252,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H7",
+        "value": -0.12315798311817402,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H11",
+        "value": -0.1231218470845904,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H6",
+        "value": -0.11965169242450169,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H10",
+        "value": -0.10159898203854659,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H8",
+        "value": -0.1012291898897716,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L8H9",
+        "value": -0.07903295333896365,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H10",
+        "value": -0.07614846594783725,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H9",
+        "value": -0.06301573503990562,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H3",
+        "value": -0.06287491133018416,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H2",
+        "value": -0.05126315208113924,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H8",
+        "value": -0.04683141435895647,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H0",
+        "value": -0.016612794338440415,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H10",
+        "value": -0.006494820288249423,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H5",
+        "value": -0.0012711839104185309,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H6",
+        "value": -0.00014095605065932073,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H2",
+        "value": 0.0055584912914402665,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H0",
+        "value": 0.006256571588467576,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L0H2",
+        "value": 0.007392900671277722,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H5",
+        "value": 0.011873654078464121,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H2",
+        "value": 0.014170686906697788,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H1",
+        "value": 0.02435590151013159,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H9",
+        "value": 0.034818939767321755,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H6",
+        "value": 0.03545085413875629,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H7",
+        "value": 0.03694933067779152,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H2",
+        "value": 0.038668117748231305,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H9",
+        "value": 0.042444103129056034,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H4",
+        "value": 0.04340906914399595,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H9",
+        "value": 0.047634123065033736,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L0H1",
+        "value": 0.04904020477314386,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H1",
+        "value": 0.05663092252551293,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H3",
+        "value": 0.06096497042142615,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H7",
+        "value": 0.06571572516645705,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H4",
+        "value": 0.07019383140972682,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H0",
+        "value": 0.08168989118872858,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H4",
+        "value": 0.08329422283537534,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H11",
+        "value": 0.08953021372459373,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L6H2",
+        "value": 0.0902756664795535,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H11",
+        "value": 0.09301582806876728,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H3",
+        "value": 0.10097221575829447,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H6",
+        "value": 0.10319401432665026,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L3H2",
+        "value": 0.11180163006393276,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H3",
+        "value": 0.12461882259164538,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H6",
+        "value": 0.12848891220530684,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H10",
+        "value": 0.15952815466997577,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H7",
+        "value": 0.16784244225949657,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H1",
+        "value": 0.17761229004178727,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H1",
+        "value": 0.18763752309643494,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H7",
+        "value": 0.18777007881475954,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H0",
+        "value": 0.18882088780403136,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H5",
+        "value": 0.19026623609114668,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H11",
+        "value": 0.20970481955275244,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H11",
+        "value": 0.21133473790421778,
+        "in_circuit": true,
+        "tier": "detector"
+      },
+      {
+        "head": "L10H0",
+        "value": 0.23658987339662046,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H2",
+        "value": 0.25413413174298344,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H9",
+        "value": 0.2543350991424249,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H5",
+        "value": 0.26409236834973704,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H7",
+        "value": 0.27912168922472974,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H3",
+        "value": 0.28927248852593557,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H3",
+        "value": 0.29180967551104875,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H7",
+        "value": 0.30543368772584567,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H10",
+        "value": 0.3096299927575248,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H11",
+        "value": 0.3252925933380516,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H1",
+        "value": 0.3416648764026408,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H6",
+        "value": 0.34382047156898343,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H9",
+        "value": 0.3520789576549919,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H8",
+        "value": 0.3759797775015539,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H6",
+        "value": 0.3819461441040039,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H6",
+        "value": 0.39228837480350415,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H0",
+        "value": 0.39502180420622535,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H2",
+        "value": 0.4102795125027092,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H9",
+        "value": 0.4186117763421974,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H6",
+        "value": 0.41868869333851094,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H7",
+        "value": 0.4232217684570624,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H7",
+        "value": 0.43508603329561196,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L10H4",
+        "value": 0.45683488368988034,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H8",
+        "value": 0.4630295205846125,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H11",
+        "value": 0.49154040049533454,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L5H3",
+        "value": 0.49723817329017483,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H8",
+        "value": 0.5332226586341858,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H9",
+        "value": 0.5432332992067143,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L6H4",
+        "value": 0.5701037963069215,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H0",
+        "value": 0.5788780581707857,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H4",
+        "value": 0.5915792066223767,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H4",
+        "value": 0.6040913884737054,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H0",
+        "value": 0.616811575013764,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H2",
+        "value": 0.6189805704720166,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H5",
+        "value": 0.6230751214708601,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H1",
+        "value": 0.6544508151132233,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H0",
+        "value": 0.6614195336614337,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L7H8",
+        "value": 0.6662054122224146,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H10",
+        "value": 0.6667395351370987,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H2",
+        "value": 0.6763936605754935,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H7",
+        "value": 0.7295628191986863,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L8H4",
+        "value": 0.7713424669479837,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L11H0",
+        "value": 0.8260209585939134,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H5",
+        "value": 0.8273281660858466,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H2",
+        "value": 0.8740684042171556,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H3",
+        "value": 0.902123697339272,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H8",
+        "value": 0.9902029842259933,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H7",
+        "value": 1.0056690063281934,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H1",
+        "value": 1.0728056309661087,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H3",
+        "value": 1.2463713782174246,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L9H10",
+        "value": 1.258952350324514,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L10H9",
+        "value": 1.5137630130806747,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H3",
+        "value": 1.5478024963456756,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H5",
+        "value": 1.716333717229415,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H11",
+        "value": 2.1524274370621663,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L7H4",
+        "value": 2.3841414609247327,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H10",
+        "value": 2.5190141677856444,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H5",
+        "value": 3.8922496067747776,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H8",
+        "value": 4.033399316850973,
+        "in_circuit": false,
+        "tier": null
+      }
+    ]
+  },
+  "diag_mean": {
+    "tier_stats": {
+      "backbone": {
+        "mean": 0.012246129413445791,
+        "std": 0.1461180575191064,
+        "min": -0.19429485499858856,
+        "max": 0.12111540883779526,
+        "values": {
+          "L0H8": -0.19429485499858856,
+          "L0H9": 0.10991783440113068,
+          "L0H11": 0.12111540883779526
+        }
+      },
+      "detector": {
+        "mean": 0.24215298891067505,
+        "std": 0.0,
+        "min": 0.24215298891067505,
+        "max": 0.24215298891067505,
+        "values": {
+          "L4H11": 0.24215298891067505
+        }
+      },
+      "copier": {
+        "mean": 0.7018256448209286,
+        "std": 0.474687387964917,
+        "min": 0.054554276168346405,
+        "max": 1.538985252380371,
+        "values": {
+          "L4H0": 0.054554276168346405,
+          "L5H6": 0.1125163808465004,
+          "L5H7": 0.4886438846588135,
+          "L7H0": 0.5957712531089783,
+          "L8H4": 0.8116529583930969,
+          "L8H7": 0.8044360280036926,
+          "L9H3": 1.538985252380371,
+          "L9H10": 1.2080451250076294
+        }
+      },
+      "readout": {
+        "mean": 0.9788514773050944,
+        "std": 0.9114876493628294,
+        "min": 0.14360755681991577,
+        "max": 2.2467617988586426,
+        "values": {
+          "L10H11": 0.5461850762367249,
+          "L11H9": 0.14360755681991577,
+          "L11H11": 2.2467617988586426
+        }
+      },
+      "non_circuit": {
+        "mean": 0.13760437868903716,
+        "std": 0.8001522749827686,
+        "n": 129
+      },
+      "threshold_bottom": [
+        {
+          "k": 5,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 5,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 8,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 8,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 10,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 10,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 15,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 15,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 20,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 20,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 25,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 25,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        }
+      ],
+      "threshold_top": [
+        {
+          "k": 5,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 4,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.2
+        },
+        {
+          "k": 8,
+          "tp_circuit": 3,
+          "tp_copier": 2,
+          "fp": 5,
+          "recall_circuit": 0.2,
+          "recall_copier": 0.25,
+          "precision": 0.375
+        },
+        {
+          "k": 10,
+          "tp_circuit": 3,
+          "tp_copier": 2,
+          "fp": 7,
+          "recall_circuit": 0.2,
+          "recall_copier": 0.25,
+          "precision": 0.3
+        },
+        {
+          "k": 15,
+          "tp_circuit": 4,
+          "tp_copier": 3,
+          "fp": 11,
+          "recall_circuit": 0.26666666666666666,
+          "recall_copier": 0.375,
+          "precision": 0.26666666666666666
+        },
+        {
+          "k": 20,
+          "tp_circuit": 5,
+          "tp_copier": 4,
+          "fp": 15,
+          "recall_circuit": 0.3333333333333333,
+          "recall_copier": 0.5,
+          "precision": 0.25
+        },
+        {
+          "k": 25,
+          "tp_circuit": 5,
+          "tp_copier": 4,
+          "fp": 20,
+          "recall_circuit": 0.3333333333333333,
+          "recall_copier": 0.5,
+          "precision": 0.2
+        }
+      ]
+    },
+    "ranked": [
+      {
+        "head": "L6H6",
+        "value": -2.9303972721099854,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H5",
+        "value": -2.224407434463501,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H0",
+        "value": -2.0675415992736816,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H9",
+        "value": -1.62791109085083,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H11",
+        "value": -1.575188159942627,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H10",
+        "value": -1.3151991367340088,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H6",
+        "value": -1.2042673826217651,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H10",
+        "value": -1.1792633533477783,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H8",
+        "value": -1.0422865152359009,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H11",
+        "value": -0.8154381513595581,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H4",
+        "value": -0.7555984258651733,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H7",
+        "value": -0.6432027220726013,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H5",
+        "value": -0.6124666333198547,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H10",
+        "value": -0.6081777811050415,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H4",
+        "value": -0.544604480266571,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H1",
+        "value": -0.5092624425888062,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H1",
+        "value": -0.44109126925468445,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H1",
+        "value": -0.36613765358924866,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H5",
+        "value": -0.3492852449417114,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H11",
+        "value": -0.33034607768058777,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H10",
+        "value": -0.3292074203491211,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H7",
+        "value": -0.29267024993896484,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H6",
+        "value": -0.27430495619773865,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H6",
+        "value": -0.2729351222515106,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H5",
+        "value": -0.23642109334468842,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H3",
+        "value": -0.20825965702533722,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H3",
+        "value": -0.2004150003194809,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H8",
+        "value": -0.19429485499858856,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L3H8",
+        "value": -0.18394199013710022,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H8",
+        "value": -0.18081216514110565,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H0",
+        "value": -0.17386743426322937,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H7",
+        "value": -0.16449378430843353,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H1",
+        "value": -0.1580050140619278,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H8",
+        "value": -0.15777912735939026,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H2",
+        "value": -0.14641623198986053,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H10",
+        "value": -0.1397058665752411,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H9",
+        "value": -0.13147561252117157,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H1",
+        "value": -0.12268846482038498,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H9",
+        "value": -0.11917852610349655,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H4",
+        "value": -0.10365306586027145,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H10",
+        "value": -0.10093266516923904,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H0",
+        "value": -0.10008829087018967,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H3",
+        "value": -0.09238998591899872,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H8",
+        "value": -0.08031272888183594,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H6",
+        "value": -0.02032366953790188,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H10",
+        "value": -0.015404615551233292,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H2",
+        "value": 0.003464720444753766,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H6",
+        "value": 0.0063554453663527966,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H5",
+        "value": 0.01595398038625717,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H2",
+        "value": 0.038534682244062424,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H11",
+        "value": 0.0402490608394146,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H0",
+        "value": 0.05164100229740143,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H0",
+        "value": 0.054554276168346405,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L0H3",
+        "value": 0.05733979120850563,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H5",
+        "value": 0.057454973459243774,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H2",
+        "value": 0.05946842208504677,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H9",
+        "value": 0.0636242926120758,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H3",
+        "value": 0.06406869739294052,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H4",
+        "value": 0.06925943493843079,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H3",
+        "value": 0.07173691689968109,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H9",
+        "value": 0.07407478243112564,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H7",
+        "value": 0.07798480987548828,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H7",
+        "value": 0.08008460700511932,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H4",
+        "value": 0.08013223856687546,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H2",
+        "value": 0.0810583233833313,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H2",
+        "value": 0.09827277809381485,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H10",
+        "value": 0.09985658526420593,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H1",
+        "value": 0.10456960648298264,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H9",
+        "value": 0.10687177628278732,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H9",
+        "value": 0.10991783440113068,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L5H6",
+        "value": 0.1125163808465004,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L0H7",
+        "value": 0.11443625390529633,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H0",
+        "value": 0.11803067475557327,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H11",
+        "value": 0.12111540883779526,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L3H2",
+        "value": 0.13498368859291077,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H4",
+        "value": 0.14312854409217834,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H9",
+        "value": 0.14360755681991577,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L9H11",
+        "value": 0.1762164682149887,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H11",
+        "value": 0.17740875482559204,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H1",
+        "value": 0.17971840500831604,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H6",
+        "value": 0.2102309614419937,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H1",
+        "value": 0.23785263299942017,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H11",
+        "value": 0.24215298891067505,
+        "in_circuit": true,
+        "tier": "detector"
+      },
+      {
+        "head": "L10H3",
+        "value": 0.2449624091386795,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H4",
+        "value": 0.24660125374794006,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H3",
+        "value": 0.2603415846824646,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H2",
+        "value": 0.261635959148407,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H0",
+        "value": 0.26192572712898254,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H7",
+        "value": 0.30821162462234497,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H1",
+        "value": 0.3211628794670105,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H0",
+        "value": 0.38859322667121887,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H2",
+        "value": 0.3959163427352905,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H5",
+        "value": 0.39639812707901,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H6",
+        "value": 0.4024946689605713,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H8",
+        "value": 0.40652361512184143,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H11",
+        "value": 0.43828919529914856,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H11",
+        "value": 0.4532875418663025,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H9",
+        "value": 0.45730090141296387,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H8",
+        "value": 0.47114962339401245,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H7",
+        "value": 0.48310720920562744,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H7",
+        "value": 0.4886438846588135,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L11H8",
+        "value": 0.49707916378974915,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H5",
+        "value": 0.5010526180267334,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H0",
+        "value": 0.518119752407074,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H6",
+        "value": 0.5187845230102539,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H7",
+        "value": 0.5192487239837646,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H5",
+        "value": 0.5292708873748779,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H1",
+        "value": 0.5362011790275574,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H11",
+        "value": 0.5461850762367249,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L7H9",
+        "value": 0.5528902411460876,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H0",
+        "value": 0.5957712531089783,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L6H0",
+        "value": 0.5983774662017822,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H4",
+        "value": 0.6084649562835693,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H7",
+        "value": 0.6090806722640991,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H9",
+        "value": 0.6249104738235474,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H4",
+        "value": 0.6254114508628845,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H1",
+        "value": 0.6271185278892517,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H6",
+        "value": 0.6313172578811646,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H5",
+        "value": 0.6607469320297241,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H4",
+        "value": 0.6927064657211304,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H10",
+        "value": 0.6970382928848267,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H6",
+        "value": 0.6979458332061768,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H2",
+        "value": 0.7129825353622437,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H8",
+        "value": 0.7381293773651123,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H10",
+        "value": 0.7412782907485962,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H8",
+        "value": 0.7531762719154358,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H3",
+        "value": 0.768464207649231,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H7",
+        "value": 0.8044360280036926,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L11H1",
+        "value": 0.8086654543876648,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H4",
+        "value": 0.8116529583930969,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L5H2",
+        "value": 0.8275794982910156,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H0",
+        "value": 0.8488413095474243,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H2",
+        "value": 0.9036489129066467,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H3",
+        "value": 1.0197030305862427,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H3",
+        "value": 1.0334436893463135,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H8",
+        "value": 1.0620988607406616,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H10",
+        "value": 1.2080451250076294,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L10H9",
+        "value": 1.4834712743759155,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H3",
+        "value": 1.538985252380371,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L8H5",
+        "value": 1.8848316669464111,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H11",
+        "value": 2.2467617988586426,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L7H4",
+        "value": 2.518909215927124,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H10",
+        "value": 2.5805177688598633,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H5",
+        "value": 3.875248432159424,
+        "in_circuit": false,
+        "tier": null
+      }
+    ]
+  },
+  "diag_ratio": {
+    "tier_stats": {
+      "backbone": {
+        "mean": 1.1705457803179515,
+        "std": 2.454003342819317,
+        "min": -2.087717898568045,
+        "max": 3.8345626177156937,
+        "values": {
+          "L0H8": -2.087717898568045,
+          "L0H9": 1.7647926218062056,
+          "L0H11": 3.8345626177156937
+        }
+      },
+      "detector": {
+        "mean": 7.857453950718746,
+        "std": 0.0,
+        "min": 7.857453950718746,
+        "max": 7.857453950718746,
+        "values": {
+          "L4H11": 7.857453950718746
+        }
+      },
+      "copier": {
+        "mean": 11.408336163564941,
+        "std": 6.9190945614461,
+        "min": 1.1295417976886613,
+        "max": 23.730327377200823,
+        "values": {
+          "L4H0": 1.1295417976886613,
+          "L5H6": 12.069508252005358,
+          "L5H7": 9.123664809342667,
+          "L7H0": 9.075199642516386,
+          "L8H4": 20.135030045087426,
+          "L8H7": 10.74397691468389,
+          "L9H3": 5.259440469994324,
+          "L9H10": 23.730327377200823
+        }
+      },
+      "readout": {
+        "mean": 11.39052317392266,
+        "std": 9.627235149578395,
+        "min": 0.35935512043411416,
+        "max": 23.817003196823066,
+        "values": {
+          "L10H11": 9.995211204510797,
+          "L11H9": 0.35935512043411416,
+          "L11H11": 23.817003196823066
+        }
+      },
+      "non_circuit": {
+        "mean": 1.901109807324162,
+        "std": 40.550334756849566,
+        "n": 129
+      },
+      "threshold_bottom": [
+        {
+          "k": 5,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 5,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 8,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 8,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 10,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 10,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 15,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 15,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 20,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 20,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 25,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 25,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        }
+      ],
+      "threshold_top": [
+        {
+          "k": 5,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 5,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 8,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 8,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 10,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 10,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 15,
+          "tp_circuit": 3,
+          "tp_copier": 2,
+          "fp": 12,
+          "recall_circuit": 0.2,
+          "recall_copier": 0.25,
+          "precision": 0.2
+        },
+        {
+          "k": 20,
+          "tp_circuit": 4,
+          "tp_copier": 3,
+          "fp": 16,
+          "recall_circuit": 0.26666666666666666,
+          "recall_copier": 0.375,
+          "precision": 0.2
+        },
+        {
+          "k": 25,
+          "tp_circuit": 5,
+          "tp_copier": 4,
+          "fp": 20,
+          "recall_circuit": 0.3333333333333333,
+          "recall_copier": 0.5,
+          "precision": 0.2
+        }
+      ]
+    },
+    "ranked": [
+      {
+        "head": "L1H5",
+        "value": -316.79239433070984,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H10",
+        "value": -151.47845517746936,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H11",
+        "value": -55.657340771092784,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H10",
+        "value": -47.51605697230088,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H1",
+        "value": -15.491086837424577,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H10",
+        "value": -14.194873479734374,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H1",
+        "value": -10.668658533348731,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H6",
+        "value": -10.185300468706368,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H10",
+        "value": -8.119861988892398,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H8",
+        "value": -8.038389862851377,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H0",
+        "value": -7.691891761882888,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H11",
+        "value": -7.604511192283157,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H4",
+        "value": -7.1123618686442285,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H11",
+        "value": -6.89291291104098,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H8",
+        "value": -6.454175049563063,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H7",
+        "value": -5.874915834449802,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H5",
+        "value": -5.7011981752104735,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H6",
+        "value": -5.125501709077546,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H10",
+        "value": -4.473769796341153,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H1",
+        "value": -3.9620914534173233,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H4",
+        "value": -3.824717736539928,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H8",
+        "value": -3.7423080646476716,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H5",
+        "value": -3.309707145710201,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H9",
+        "value": -3.2944234532976937,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H1",
+        "value": -3.1609343548639526,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H3",
+        "value": -3.131108010000973,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H5",
+        "value": -2.7481356471402534,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H8",
+        "value": -2.583755276869145,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H8",
+        "value": -2.398732839090918,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H8",
+        "value": -2.087717898568045,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L2H3",
+        "value": -2.0106071900124256,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H9",
+        "value": -2.006979390810098,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H9",
+        "value": -1.9204768861162833,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H6",
+        "value": -1.7805911727150017,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H7",
+        "value": -1.726543189206023,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H6",
+        "value": -1.6987674669383355,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H2",
+        "value": -1.53874401098147,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H3",
+        "value": -1.4324725464580366,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H4",
+        "value": -1.1632388666790754,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H0",
+        "value": -1.0917380297623696,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H1",
+        "value": -0.8343635856213466,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H10",
+        "value": -0.46687828458538416,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H7",
+        "value": -0.37080262994716356,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H6",
+        "value": -0.36438983538945796,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H10",
+        "value": -0.25359958951062095,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H0",
+        "value": -0.1738868412593741,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H2",
+        "value": 0.0051487166587987025,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H8",
+        "value": 0.1405639597832778,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H11",
+        "value": 0.16922619142693707,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H9",
+        "value": 0.35935512043411416,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L8H9",
+        "value": 0.48380822830518183,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H4",
+        "value": 0.6898127520865138,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H2",
+        "value": 0.7447612900868228,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H0",
+        "value": 0.7566026326310343,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H11",
+        "value": 0.7627729132655273,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H11",
+        "value": 0.7863986091772013,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H7",
+        "value": 0.8678707386305445,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H5",
+        "value": 0.9262019228876643,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H10",
+        "value": 0.9389305637438045,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H6",
+        "value": 0.9783024263062868,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H2",
+        "value": 1.0572633350635574,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H2",
+        "value": 1.1003578108842138,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H2",
+        "value": 1.1031069990130422,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H0",
+        "value": 1.1295417976886613,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L0H5",
+        "value": 1.2604938626989703,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H3",
+        "value": 1.3565493872685264,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H1",
+        "value": 1.3752745641381825,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H4",
+        "value": 1.4353118487940453,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H9",
+        "value": 1.4832417612250974,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H7",
+        "value": 1.535800778275245,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H1",
+        "value": 1.5383163727766305,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H2",
+        "value": 1.553852055674736,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H7",
+        "value": 1.566462067450464,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H5",
+        "value": 1.6122090509402054,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H2",
+        "value": 1.648743191541769,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H9",
+        "value": 1.6863248784208773,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H10",
+        "value": 1.717320082175321,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H3",
+        "value": 1.7361135213459387,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H9",
+        "value": 1.7647926218062056,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L3H7",
+        "value": 1.8565919506750337,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H0",
+        "value": 1.8704381353599795,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H0",
+        "value": 1.9451803421846359,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H3",
+        "value": 2.0091882846805733,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H1",
+        "value": 2.181319920205211,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H6",
+        "value": 2.195910659592736,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H1",
+        "value": 2.23728011517904,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H1",
+        "value": 2.2911809337021123,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H7",
+        "value": 2.348830290488748,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H6",
+        "value": 2.4992944971326048,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H6",
+        "value": 2.571882686425864,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H3",
+        "value": 2.833298098325576,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H4",
+        "value": 2.9367949265531954,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H5",
+        "value": 2.996076138987428,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H9",
+        "value": 3.0039529326538044,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H1",
+        "value": 3.061501148960422,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H2",
+        "value": 3.1743920130378287,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H0",
+        "value": 3.2478846861868265,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H8",
+        "value": 3.4242505059916444,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H6",
+        "value": 3.7912209043820866,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H11",
+        "value": 3.8345626177156937,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L6H11",
+        "value": 3.8787820810944993,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H5",
+        "value": 3.9665148080873385,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H9",
+        "value": 4.117490034919735,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H9",
+        "value": 4.346060190925825,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H8",
+        "value": 4.950618743581316,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H3",
+        "value": 5.228958434173731,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H3",
+        "value": 5.259440469994324,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L8H11",
+        "value": 5.493200356607984,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H5",
+        "value": 5.642292076806357,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H2",
+        "value": 5.822765387374988,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H8",
+        "value": 7.194356254856302,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H11",
+        "value": 7.857453950718746,
+        "in_circuit": true,
+        "tier": "detector"
+      },
+      {
+        "head": "L6H7",
+        "value": 8.067189660125939,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H0",
+        "value": 8.52755429964225,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H3",
+        "value": 8.672468209843908,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H3",
+        "value": 8.998736617118993,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H0",
+        "value": 9.075199642516386,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L5H7",
+        "value": 9.123664809342667,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L10H11",
+        "value": 9.995211204510797,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L7H8",
+        "value": 10.262634643048315,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H0",
+        "value": 10.338144862298606,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H7",
+        "value": 10.74397691468389,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L8H5",
+        "value": 11.186080714890043,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H4",
+        "value": 11.307864250494946,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H6",
+        "value": 12.069508252005358,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L6H8",
+        "value": 14.772736779232341,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H3",
+        "value": 15.817091034405,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H2",
+        "value": 17.801655685889457,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H4",
+        "value": 18.69074107536591,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H4",
+        "value": 20.135030045087426,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L7H1",
+        "value": 22.944238821141074,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H10",
+        "value": 23.005507235244472,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H10",
+        "value": 23.730327377200823,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L11H11",
+        "value": 23.817003196823066,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L5H4",
+        "value": 25.34238921772155,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H2",
+        "value": 27.56469124781323,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H0",
+        "value": 32.460341265145075,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H4",
+        "value": 36.03422796670622,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H6",
+        "value": 39.43592638257247,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H10",
+        "value": 41.95718168681108,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H9",
+        "value": 48.972800271962,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H4",
+        "value": 74.12209875980787,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H7",
+        "value": 110.94982535987842,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H5",
+        "value": 227.9400392644423,
+        "in_circuit": false,
+        "tier": null
+      }
+    ]
+  },
+  "diag_neg_frac": {
+    "tier_stats": {
+      "backbone": {
+        "mean": 0.43333333333333335,
+        "std": 0.21929178937864702,
+        "min": 0.24,
+        "max": 0.74,
+        "values": {
+          "L0H8": 0.74,
+          "L0H9": 0.32,
+          "L0H11": 0.24
+        }
+      },
+      "detector": {
+        "mean": 0.02,
+        "std": 0.0,
+        "min": 0.02,
+        "max": 0.02,
+        "values": {
+          "L4H11": 0.02
+        }
+      },
+      "copier": {
+        "mean": 0.095,
+        "std": 0.12599603168354154,
+        "min": 0.0,
+        "max": 0.34,
+        "values": {
+          "L4H0": 0.34,
+          "L5H6": 0.28,
+          "L5H7": 0.06,
+          "L7H0": 0.02,
+          "L8H4": 0.0,
+          "L8H7": 0.02,
+          "L9H3": 0.02,
+          "L9H10": 0.02
+        }
+      },
+      "readout": {
+        "mean": 0.25333333333333335,
+        "std": 0.16357125528513727,
+        "min": 0.1,
+        "max": 0.48,
+        "values": {
+          "L10H11": 0.1,
+          "L11H9": 0.48,
+          "L11H11": 0.18
+        }
+      },
+      "non_circuit": {
+        "mean": 0.42806201550387596,
+        "std": 0.32755158779298443,
+        "n": 129
+      },
+      "threshold_bottom": [
+        {
+          "k": 5,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 5,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 8,
+          "tp_circuit": 1,
+          "tp_copier": 1,
+          "fp": 7,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.125,
+          "precision": 0.125
+        },
+        {
+          "k": 10,
+          "tp_circuit": 1,
+          "tp_copier": 1,
+          "fp": 9,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.125,
+          "precision": 0.1
+        },
+        {
+          "k": 15,
+          "tp_circuit": 5,
+          "tp_copier": 4,
+          "fp": 10,
+          "recall_circuit": 0.3333333333333333,
+          "recall_copier": 0.5,
+          "precision": 0.3333333333333333
+        },
+        {
+          "k": 20,
+          "tp_circuit": 6,
+          "tp_copier": 5,
+          "fp": 14,
+          "recall_circuit": 0.4,
+          "recall_copier": 0.625,
+          "precision": 0.3
+        },
+        {
+          "k": 25,
+          "tp_circuit": 7,
+          "tp_copier": 6,
+          "fp": 18,
+          "recall_circuit": 0.4666666666666667,
+          "recall_copier": 0.75,
+          "precision": 0.28
+        }
+      ],
+      "threshold_top": [
+        {
+          "k": 5,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 5,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 8,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 8,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 10,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 10,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 15,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 15,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 20,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 20,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 25,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 25,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        }
+      ]
+    },
+    "ranked": [
+      {
+        "head": "L1H6",
+        "value": 0.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H2",
+        "value": 0.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H10",
+        "value": 0.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H0",
+        "value": 0.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H8",
+        "value": 0.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H4",
+        "value": 0.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H4",
+        "value": 0.0,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L8H5",
+        "value": 0.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H10",
+        "value": 0.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H9",
+        "value": 0.02,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H11",
+        "value": 0.02,
+        "in_circuit": true,
+        "tier": "detector"
+      },
+      {
+        "head": "L6H4",
+        "value": 0.02,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H0",
+        "value": 0.02,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L8H7",
+        "value": 0.02,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L9H3",
+        "value": 0.02,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L9H10",
+        "value": 0.02,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L10H9",
+        "value": 0.02,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H8",
+        "value": 0.04,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H5",
+        "value": 0.04,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H3",
+        "value": 0.06,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H7",
+        "value": 0.06,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L7H1",
+        "value": 0.06,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H5",
+        "value": 0.06,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H1",
+        "value": 0.08,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H8",
+        "value": 0.08,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H3",
+        "value": 0.08,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H5",
+        "value": 0.08,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H9",
+        "value": 0.08,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H11",
+        "value": 0.1,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L3H2",
+        "value": 0.12,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H0",
+        "value": 0.12,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H1",
+        "value": 0.12,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H7",
+        "value": 0.12,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H11",
+        "value": 0.12,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H7",
+        "value": 0.12,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H8",
+        "value": 0.12,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H6",
+        "value": 0.12,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H0",
+        "value": 0.14,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H1",
+        "value": 0.14,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H0",
+        "value": 0.14,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H5",
+        "value": 0.14,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H4",
+        "value": 0.16,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H5",
+        "value": 0.16,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H9",
+        "value": 0.16,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H9",
+        "value": 0.16,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H4",
+        "value": 0.16,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H3",
+        "value": 0.18,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H10",
+        "value": 0.18,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H6",
+        "value": 0.18,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H2",
+        "value": 0.18,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H11",
+        "value": 0.18,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L1H7",
+        "value": 0.2,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H8",
+        "value": 0.2,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H6",
+        "value": 0.2,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H1",
+        "value": 0.22,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H9",
+        "value": 0.22,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H6",
+        "value": 0.24,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H11",
+        "value": 0.24,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L7H2",
+        "value": 0.24,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H2",
+        "value": 0.24,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H1",
+        "value": 0.24,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H3",
+        "value": 0.24,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H2",
+        "value": 0.26,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H1",
+        "value": 0.26,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H0",
+        "value": 0.26,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H7",
+        "value": 0.26,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H6",
+        "value": 0.28,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L7H11",
+        "value": 0.28,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H0",
+        "value": 0.3,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H4",
+        "value": 0.3,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H5",
+        "value": 0.32,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H9",
+        "value": 0.32,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L3H3",
+        "value": 0.32,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H7",
+        "value": 0.32,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H11",
+        "value": 0.32,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H3",
+        "value": 0.34,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H4",
+        "value": 0.34,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H0",
+        "value": 0.34,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L0H2",
+        "value": 0.36,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H2",
+        "value": 0.36,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H3",
+        "value": 0.36,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H11",
+        "value": 0.38,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H5",
+        "value": 0.38,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H4",
+        "value": 0.38,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H7",
+        "value": 0.4,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H10",
+        "value": 0.4,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H4",
+        "value": 0.4,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H6",
+        "value": 0.4,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H11",
+        "value": 0.4,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H0",
+        "value": 0.42,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H9",
+        "value": 0.42,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H7",
+        "value": 0.44,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H3",
+        "value": 0.46,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H2",
+        "value": 0.48,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H9",
+        "value": 0.48,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L11H0",
+        "value": 0.52,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H8",
+        "value": 0.52,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H10",
+        "value": 0.54,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H9",
+        "value": 0.54,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H6",
+        "value": 0.58,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H10",
+        "value": 0.58,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H2",
+        "value": 0.58,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H7",
+        "value": 0.6,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H2",
+        "value": 0.62,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H10",
+        "value": 0.62,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H3",
+        "value": 0.64,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H3",
+        "value": 0.7,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H1",
+        "value": 0.7,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H8",
+        "value": 0.74,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L1H1",
+        "value": 0.74,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H6",
+        "value": 0.74,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H8",
+        "value": 0.74,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H8",
+        "value": 0.76,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H2",
+        "value": 0.78,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H4",
+        "value": 0.78,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H9",
+        "value": 0.78,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H0",
+        "value": 0.78,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H10",
+        "value": 0.78,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H1",
+        "value": 0.78,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H8",
+        "value": 0.8,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H4",
+        "value": 0.86,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H10",
+        "value": 0.86,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H1",
+        "value": 0.86,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H5",
+        "value": 0.88,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H5",
+        "value": 0.88,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H8",
+        "value": 0.9,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H8",
+        "value": 0.9,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H6",
+        "value": 0.92,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H7",
+        "value": 0.92,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H1",
+        "value": 0.94,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H6",
+        "value": 0.94,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H11",
+        "value": 0.96,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H10",
+        "value": 0.96,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H3",
+        "value": 0.98,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H5",
+        "value": 0.98,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H4",
+        "value": 0.98,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H10",
+        "value": 0.98,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H11",
+        "value": 1.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H7",
+        "value": 1.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H9",
+        "value": 1.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H11",
+        "value": 1.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H6",
+        "value": 1.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H0",
+        "value": 1.0,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H5",
+        "value": 1.0,
+        "in_circuit": false,
+        "tier": null
+      }
+    ]
+  },
+  "vertical_band_score": {
+    "tier_stats": {
+      "backbone": {
+        "mean": 0.4057962982747436,
+        "std": 0.16067189161486506,
+        "min": 0.21009778967368908,
+        "max": 0.6036443297234974,
+        "values": {
+          "L0H8": 0.6036443297234974,
+          "L0H9": 0.21009778967368908,
+          "L0H11": 0.4036467754270443
+        }
+      },
+      "detector": {
+        "mean": 0.37757191024333014,
+        "std": 0.0,
+        "min": 0.37757191024333014,
+        "max": 0.37757191024333014,
+        "values": {
+          "L4H11": 0.37757191024333014
+        }
+      },
+      "copier": {
+        "mean": 0.22471147898345795,
+        "std": 0.06083098850136069,
+        "min": 0.1327568912243437,
+        "max": 0.31483467691348355,
+        "values": {
+          "L4H0": 0.16296162541231102,
+          "L5H6": 0.31483467691348355,
+          "L5H7": 0.2855893729766677,
+          "L7H0": 0.1327568912243437,
+          "L8H4": 0.21558248789454063,
+          "L8H7": 0.16886480948180535,
+          "L9H3": 0.255918426444808,
+          "L9H10": 0.26118354151970363
+        }
+      },
+      "readout": {
+        "mean": 0.25800013398404026,
+        "std": 0.11212617679126799,
+        "min": 0.10487379317935837,
+        "max": 0.37023769431201753,
+        "values": {
+          "L10H11": 0.2988889144607447,
+          "L11H9": 0.37023769431201753,
+          "L11H11": 0.10487379317935837
+        }
+      },
+      "non_circuit": {
+        "mean": 0.2794337211033681,
+        "std": 0.10057823367174659,
+        "n": 129
+      },
+      "threshold_bottom": [
+        {
+          "k": 5,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 4,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.2
+        },
+        {
+          "k": 8,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 7,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.125
+        },
+        {
+          "k": 10,
+          "tp_circuit": 2,
+          "tp_copier": 1,
+          "fp": 8,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.125,
+          "precision": 0.2
+        },
+        {
+          "k": 15,
+          "tp_circuit": 2,
+          "tp_copier": 1,
+          "fp": 13,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.125,
+          "precision": 0.13333333333333333
+        },
+        {
+          "k": 20,
+          "tp_circuit": 3,
+          "tp_copier": 2,
+          "fp": 17,
+          "recall_circuit": 0.2,
+          "recall_copier": 0.25,
+          "precision": 0.15
+        },
+        {
+          "k": 25,
+          "tp_circuit": 4,
+          "tp_copier": 3,
+          "fp": 21,
+          "recall_circuit": 0.26666666666666666,
+          "recall_copier": 0.375,
+          "precision": 0.16
+        }
+      ],
+      "threshold_top": [
+        {
+          "k": 5,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 4,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.2
+        },
+        {
+          "k": 8,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 7,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.125
+        },
+        {
+          "k": 10,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 9,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.1
+        },
+        {
+          "k": 15,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 14,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.06666666666666667
+        },
+        {
+          "k": 20,
+          "tp_circuit": 2,
+          "tp_copier": 0,
+          "fp": 18,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.0,
+          "precision": 0.1
+        },
+        {
+          "k": 25,
+          "tp_circuit": 2,
+          "tp_copier": 0,
+          "fp": 23,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.0,
+          "precision": 0.08
+        }
+      ]
+    },
+    "ranked": [
+      {
+        "head": "L0H2",
+        "value": 0.07716485682621266,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H10",
+        "value": 0.10168407730021566,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H11",
+        "value": 0.10487379317935837,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L3H8",
+        "value": 0.11368563537141621,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H0",
+        "value": 0.11604276180322617,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H10",
+        "value": 0.12356115490592574,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H1",
+        "value": 0.1283837178075618,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H10",
+        "value": 0.13173523398875076,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H0",
+        "value": 0.1327568912243437,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L1H11",
+        "value": 0.136649467065048,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H8",
+        "value": 0.14216112851612003,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H7",
+        "value": 0.14414891196219765,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H3",
+        "value": 0.1483865778732096,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H4",
+        "value": 0.15159497876024464,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H6",
+        "value": 0.15368024978716535,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H5",
+        "value": 0.15949941861648692,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H1",
+        "value": 0.16071189155514637,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H9",
+        "value": 0.16156667531163293,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H8",
+        "value": 0.1624240621772522,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H0",
+        "value": 0.16296162541231102,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L7H7",
+        "value": 0.16491227777135747,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H7",
+        "value": 0.16886480948180535,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L5H2",
+        "value": 0.1795384352154389,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H10",
+        "value": 0.1848526616163432,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H9",
+        "value": 0.1860185545404519,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H1",
+        "value": 0.18755184027384525,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H8",
+        "value": 0.192102345283481,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H4",
+        "value": 0.19590428445411054,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H0",
+        "value": 0.1981816089933589,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H4",
+        "value": 0.1990219640051065,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H5",
+        "value": 0.20149504105802124,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H0",
+        "value": 0.20155852191910895,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H5",
+        "value": 0.20174117769068037,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H7",
+        "value": 0.20640305579010138,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H1",
+        "value": 0.20835059597008987,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H9",
+        "value": 0.21009778967368908,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L4H1",
+        "value": 0.21016623102267476,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H5",
+        "value": 0.21520662910891794,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H5",
+        "value": 0.21539794983182312,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H4",
+        "value": 0.21558248789454063,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L1H5",
+        "value": 0.21865441822509193,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H5",
+        "value": 0.22216343563467741,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H10",
+        "value": 0.22295605624775633,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H9",
+        "value": 0.224875994419204,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H5",
+        "value": 0.2264256684634214,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H6",
+        "value": 0.22905861131416963,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H7",
+        "value": 0.22977520013223957,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H8",
+        "value": 0.2309372597898292,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H3",
+        "value": 0.23178014192833626,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H6",
+        "value": 0.2345882570232116,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H10",
+        "value": 0.23604713744769795,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H9",
+        "value": 0.2366707433338081,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H10",
+        "value": 0.23769985881006844,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H3",
+        "value": 0.24275762010798949,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H5",
+        "value": 0.24470949077894183,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H11",
+        "value": 0.24491171936347128,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H4",
+        "value": 0.24528474394410094,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H5",
+        "value": 0.24594475473939278,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H3",
+        "value": 0.24618046960247014,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H4",
+        "value": 0.24626964954749173,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H2",
+        "value": 0.24723315308739457,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H4",
+        "value": 0.2485150955502069,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H2",
+        "value": 0.25270371910806766,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H1",
+        "value": 0.2541925866208756,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H11",
+        "value": 0.2543549852405423,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H0",
+        "value": 0.25555084871844086,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H0",
+        "value": 0.25566408845679117,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H3",
+        "value": 0.255918426444808,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L5H10",
+        "value": 0.2560250398154299,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H9",
+        "value": 0.2593985080354355,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H4",
+        "value": 0.25984866235658793,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H10",
+        "value": 0.26118354151970363,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L9H1",
+        "value": 0.26321933646528295,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H2",
+        "value": 0.26396390976289874,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H7",
+        "value": 0.26534206496085705,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H0",
+        "value": 0.2714176357664822,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H5",
+        "value": 0.2724406449497584,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H11",
+        "value": 0.27290250094750157,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H3",
+        "value": 0.2752437531024458,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H3",
+        "value": 0.2767331940997707,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H0",
+        "value": 0.27729389621453426,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H2",
+        "value": 0.27975984457399533,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H7",
+        "value": 0.2855893729766677,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L7H9",
+        "value": 0.2858071050207232,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H1",
+        "value": 0.28843087665632,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H7",
+        "value": 0.2913347495645064,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H4",
+        "value": 0.2917904613292066,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H3",
+        "value": 0.29284807261852186,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H1",
+        "value": 0.29303947882386067,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H11",
+        "value": 0.2986214246968056,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H11",
+        "value": 0.2988889144607447,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L11H7",
+        "value": 0.3013528062136454,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H9",
+        "value": 0.30456603905199847,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H11",
+        "value": 0.30721154528552497,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H0",
+        "value": 0.3079862888014017,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H10",
+        "value": 0.30887823580304646,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H8",
+        "value": 0.3132661731836379,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H10",
+        "value": 0.3136507033140174,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H6",
+        "value": 0.31483467691348355,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L1H6",
+        "value": 0.31695037770214957,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H8",
+        "value": 0.3189953299256812,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H7",
+        "value": 0.32315370327398274,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H6",
+        "value": 0.32503921106140315,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H7",
+        "value": 0.3254964061248708,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H8",
+        "value": 0.3315478182477663,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H2",
+        "value": 0.33302998764971525,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H8",
+        "value": 0.3345114067155721,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H6",
+        "value": 0.33488372114420834,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H0",
+        "value": 0.33631632922915616,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H6",
+        "value": 0.33856052265313225,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H2",
+        "value": 0.34073762892091103,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H4",
+        "value": 0.3504921481032749,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H1",
+        "value": 0.3517798641830291,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H11",
+        "value": 0.3533129124015172,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H2",
+        "value": 0.3670454149088408,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H9",
+        "value": 0.37023769431201753,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L1H9",
+        "value": 0.3710123078349644,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H8",
+        "value": 0.3743043291338284,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H11",
+        "value": 0.37757191024333014,
+        "in_circuit": true,
+        "tier": "detector"
+      },
+      {
+        "head": "L10H0",
+        "value": 0.3802754726731006,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H8",
+        "value": 0.3809324691143157,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H3",
+        "value": 0.3868671521868349,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H3",
+        "value": 0.38960488638066476,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H2",
+        "value": 0.3956314123230618,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H4",
+        "value": 0.39590270073827827,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H11",
+        "value": 0.39682631379401845,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H4",
+        "value": 0.3997882976861006,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H6",
+        "value": 0.40359163874792087,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H11",
+        "value": 0.4036467754270443,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L8H2",
+        "value": 0.40582635179481685,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H10",
+        "value": 0.4093025696453503,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H5",
+        "value": 0.41359671635230166,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H7",
+        "value": 0.41917482030061004,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H6",
+        "value": 0.42419624810798867,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H3",
+        "value": 0.42559070080345035,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H6",
+        "value": 0.43122645227083967,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H1",
+        "value": 0.43244063403164557,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H2",
+        "value": 0.4487834659495579,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H3",
+        "value": 0.4745991973449806,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H9",
+        "value": 0.47651874224363183,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H9",
+        "value": 0.5578324246474845,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H1",
+        "value": 0.585606446662901,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H8",
+        "value": 0.6036443297234974,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L0H6",
+        "value": 0.6659028560980234,
+        "in_circuit": false,
+        "tier": null
+      }
+    ]
+  },
+  "effective_rank": {
+    "tier_stats": {
+      "backbone": {
+        "mean": 7.002698534730636,
+        "std": 0.6724379149303605,
+        "min": 6.368360437687285,
+        "max": 7.933439509055148,
+        "values": {
+          "L0H8": 6.706295657449477,
+          "L0H9": 6.368360437687285,
+          "L0H11": 7.933439509055148
+        }
+      },
+      "detector": {
+        "mean": 14.517299739832161,
+        "std": 0.0,
+        "min": 14.517299739832161,
+        "max": 14.517299739832161,
+        "values": {
+          "L4H11": 14.517299739832161
+        }
+      },
+      "copier": {
+        "mean": 15.223836655708595,
+        "std": 2.1656280447677805,
+        "min": 10.602593401707104,
+        "max": 18.511825371718476,
+        "values": {
+          "L4H0": 16.551985793711268,
+          "L5H6": 15.478762252874933,
+          "L5H7": 16.018737319547547,
+          "L7H0": 15.065593060703145,
+          "L8H4": 18.511825371718476,
+          "L8H7": 13.66839225220958,
+          "L9H3": 10.602593401707104,
+          "L9H10": 15.89280379319671
+        }
+      },
+      "readout": {
+        "mean": 16.43791171424935,
+        "std": 2.490694046453411,
+        "min": 13.495994225917313,
+        "max": 19.586421163593094,
+        "values": {
+          "L10H11": 16.231319753237635,
+          "L11H9": 13.495994225917313,
+          "L11H11": 19.586421163593094
+        }
+      },
+      "non_circuit": {
+        "mean": 14.305886536992407,
+        "std": 3.4807990398564193,
+        "n": 129
+      },
+      "threshold_bottom": [
+        {
+          "k": 5,
+          "tp_circuit": 2,
+          "tp_copier": 0,
+          "fp": 3,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.0,
+          "precision": 0.4
+        },
+        {
+          "k": 8,
+          "tp_circuit": 2,
+          "tp_copier": 0,
+          "fp": 6,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.0,
+          "precision": 0.25
+        },
+        {
+          "k": 10,
+          "tp_circuit": 2,
+          "tp_copier": 0,
+          "fp": 8,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.0,
+          "precision": 0.2
+        },
+        {
+          "k": 15,
+          "tp_circuit": 3,
+          "tp_copier": 0,
+          "fp": 12,
+          "recall_circuit": 0.2,
+          "recall_copier": 0.0,
+          "precision": 0.2
+        },
+        {
+          "k": 20,
+          "tp_circuit": 3,
+          "tp_copier": 0,
+          "fp": 17,
+          "recall_circuit": 0.2,
+          "recall_copier": 0.0,
+          "precision": 0.15
+        },
+        {
+          "k": 25,
+          "tp_circuit": 3,
+          "tp_copier": 0,
+          "fp": 22,
+          "recall_circuit": 0.2,
+          "recall_copier": 0.0,
+          "precision": 0.12
+        }
+      ],
+      "threshold_top": [
+        {
+          "k": 5,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 4,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.2
+        },
+        {
+          "k": 8,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 7,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.125
+        },
+        {
+          "k": 10,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 9,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.1
+        },
+        {
+          "k": 15,
+          "tp_circuit": 2,
+          "tp_copier": 1,
+          "fp": 13,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.125,
+          "precision": 0.13333333333333333
+        },
+        {
+          "k": 20,
+          "tp_circuit": 2,
+          "tp_copier": 1,
+          "fp": 18,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.125,
+          "precision": 0.1
+        },
+        {
+          "k": 25,
+          "tp_circuit": 2,
+          "tp_copier": 1,
+          "fp": 23,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.125,
+          "precision": 0.08
+        }
+      ]
+    },
+    "ranked": [
+      {
+        "head": "L11H8",
+        "value": 4.280556665086185,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H9",
+        "value": 6.368360437687285,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L0H6",
+        "value": 6.379177247278339,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H8",
+        "value": 6.706295657449477,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L11H0",
+        "value": 6.925421974492796,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H0",
+        "value": 7.029662203963952,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H7",
+        "value": 7.0403989520557,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H2",
+        "value": 7.448022536366373,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H10",
+        "value": 7.748039106422972,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H6",
+        "value": 7.92631114108866,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H11",
+        "value": 7.933439509055148,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L7H11",
+        "value": 7.956145993370368,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H11",
+        "value": 8.028424718856597,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H9",
+        "value": 8.0329200449504,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H2",
+        "value": 8.92018819675834,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H0",
+        "value": 8.981809117895814,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H1",
+        "value": 9.032572659608332,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H6",
+        "value": 9.08970520133432,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H5",
+        "value": 9.350707903768503,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H5",
+        "value": 9.436172834358445,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H1",
+        "value": 9.468361829299614,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H0",
+        "value": 9.870107959121599,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H4",
+        "value": 10.100434993839437,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H2",
+        "value": 10.1015323700058,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H2",
+        "value": 10.374780678204791,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H3",
+        "value": 10.602593401707104,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L5H9",
+        "value": 10.62946496226985,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H3",
+        "value": 10.73959103670496,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H3",
+        "value": 10.924064355668987,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H6",
+        "value": 10.952663670150201,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H2",
+        "value": 11.027976225876305,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H5",
+        "value": 11.701055471866592,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H6",
+        "value": 11.791141174004574,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H9",
+        "value": 11.800121072625226,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H10",
+        "value": 11.96315186385139,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H3",
+        "value": 11.973630056903872,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H7",
+        "value": 12.222518419176701,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H5",
+        "value": 12.34661916923206,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H6",
+        "value": 12.485233063755441,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H4",
+        "value": 12.52962006008658,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H9",
+        "value": 12.642177891507393,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H7",
+        "value": 12.65420494850179,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H1",
+        "value": 12.680255089439592,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H0",
+        "value": 12.875765596037164,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H2",
+        "value": 12.880583373237052,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H5",
+        "value": 12.940499075801299,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H0",
+        "value": 13.049475776625302,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H4",
+        "value": 13.081030329365879,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H10",
+        "value": 13.4577320874085,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H11",
+        "value": 13.495406232883859,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H9",
+        "value": 13.495994225917313,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L9H4",
+        "value": 13.665132004241082,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H4",
+        "value": 13.66803892304371,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H7",
+        "value": 13.66839225220958,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L4H6",
+        "value": 14.018009633084187,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H1",
+        "value": 14.033133049787384,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H1",
+        "value": 14.18257568328379,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H4",
+        "value": 14.22392637658789,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H7",
+        "value": 14.363257220471574,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H8",
+        "value": 14.463192335803292,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H10",
+        "value": 14.479891796206108,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H3",
+        "value": 14.489616541297014,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H7",
+        "value": 14.498897737096048,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H4",
+        "value": 14.508882164070402,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H11",
+        "value": 14.517299739832161,
+        "in_circuit": true,
+        "tier": "detector"
+      },
+      {
+        "head": "L2H6",
+        "value": 14.621127631969005,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H8",
+        "value": 14.678844720521669,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H5",
+        "value": 14.700957250171735,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H2",
+        "value": 14.777246690060567,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H3",
+        "value": 14.93290095742686,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H10",
+        "value": 14.96383604754354,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H10",
+        "value": 14.97672239983328,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H0",
+        "value": 15.065593060703145,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L1H5",
+        "value": 15.080227055594683,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H8",
+        "value": 15.102268693230736,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H5",
+        "value": 15.14445866435395,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H7",
+        "value": 15.232046049549384,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H1",
+        "value": 15.254224043011792,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H8",
+        "value": 15.288586397869942,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H1",
+        "value": 15.355112846975908,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H3",
+        "value": 15.442899601363026,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H7",
+        "value": 15.458653305681937,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H6",
+        "value": 15.478762252874933,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L5H4",
+        "value": 15.623436606378561,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H11",
+        "value": 15.623655498635994,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H10",
+        "value": 15.717675125818229,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H9",
+        "value": 15.741002480772492,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H11",
+        "value": 15.808766498290481,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H10",
+        "value": 15.89280379319671,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L4H7",
+        "value": 15.938479109304891,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H7",
+        "value": 16.018737319547547,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L8H3",
+        "value": 16.025723376028974,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H2",
+        "value": 16.054674054993093,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H11",
+        "value": 16.209421831700748,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H11",
+        "value": 16.231319753237635,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L6H8",
+        "value": 16.403288143426977,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H9",
+        "value": 16.411403324964958,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H4",
+        "value": 16.52270964768657,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H0",
+        "value": 16.54085570273026,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H0",
+        "value": 16.551985793711268,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L2H3",
+        "value": 16.585090836142896,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H1",
+        "value": 16.677062741016478,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H9",
+        "value": 16.697498289390634,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H2",
+        "value": 16.77097146807878,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H5",
+        "value": 16.806051405872754,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H8",
+        "value": 16.81799031490523,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H8",
+        "value": 16.82824154581117,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H4",
+        "value": 16.845208107328897,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H10",
+        "value": 16.92267232765394,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H9",
+        "value": 16.93610224043322,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H3",
+        "value": 16.95485060360094,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H8",
+        "value": 17.024631560716866,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H7",
+        "value": 17.027389223281183,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H4",
+        "value": 17.130609922526446,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H6",
+        "value": 17.202772330215307,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H2",
+        "value": 17.34429009301743,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H1",
+        "value": 17.39660953604046,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H1",
+        "value": 17.400052004428836,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H10",
+        "value": 17.40422918391296,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H8",
+        "value": 17.405656832649527,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H10",
+        "value": 17.514591455025705,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H3",
+        "value": 17.690162992982213,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H8",
+        "value": 17.923959274240197,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H7",
+        "value": 18.035698656473343,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H2",
+        "value": 18.061800191017692,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H3",
+        "value": 18.0876029133074,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H11",
+        "value": 18.101923586155362,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H5",
+        "value": 18.10536400482042,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H2",
+        "value": 18.11333952605342,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H1",
+        "value": 18.244280299723982,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H0",
+        "value": 18.343362810238638,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H1",
+        "value": 18.457067533798334,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H4",
+        "value": 18.511825371718476,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L7H5",
+        "value": 18.60902987290188,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H10",
+        "value": 18.683668238236873,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H9",
+        "value": 18.80088990880855,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H6",
+        "value": 18.894976718274794,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H0",
+        "value": 18.970360774681502,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H0",
+        "value": 19.006034604287564,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H6",
+        "value": 19.407840131462912,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H5",
+        "value": 19.409857545429777,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H11",
+        "value": 19.586421163593094,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L8H11",
+        "value": 19.76386541452907,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H9",
+        "value": 20.464513700576326,
+        "in_circuit": false,
+        "tier": null
+      }
+    ]
+  },
+  "max_col_mean_abs": {
+    "tier_stats": {
+      "backbone": {
+        "mean": 0.3909413119157155,
+        "std": 0.09852509218905037,
+        "min": 0.3152230381965637,
+        "max": 0.5300962924957275,
+        "values": {
+          "L0H8": 0.5300962924957275,
+          "L0H9": 0.3152230381965637,
+          "L0H11": 0.32750460505485535
+        }
+      },
+      "detector": {
+        "mean": 0.1811358779668808,
+        "std": 0.0,
+        "min": 0.1811358779668808,
+        "max": 0.1811358779668808,
+        "values": {
+          "L4H11": 0.1811358779668808
+        }
+      },
+      "copier": {
+        "mean": 0.40784711204469204,
+        "std": 0.1913690142493227,
+        "min": 0.2172197550535202,
+        "max": 0.7917795777320862,
+        "values": {
+          "L4H0": 0.2172197550535202,
+          "L5H6": 0.30639949440956116,
+          "L5H7": 0.3477570712566376,
+          "L7H0": 0.2859839200973511,
+          "L8H4": 0.3597380518913269,
+          "L8H7": 0.2917252779006958,
+          "L9H3": 0.6621737480163574,
+          "L9H10": 0.7917795777320862
+        }
+      },
+      "readout": {
+        "mean": 0.6732745071252187,
+        "std": 0.2981868962499319,
+        "min": 0.3983154594898224,
+        "max": 1.0876498222351074,
+        "values": {
+          "L10H11": 0.3983154594898224,
+          "L11H9": 1.0876498222351074,
+          "L11H11": 0.5338582396507263
+        }
+      },
+      "non_circuit": {
+        "mean": 0.7774801407327023,
+        "std": 0.9059528606386186,
+        "n": 129
+      },
+      "threshold_bottom": [
+        {
+          "k": 5,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 5,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 8,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 7,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.125
+        },
+        {
+          "k": 10,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 9,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.1
+        },
+        {
+          "k": 15,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 14,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.06666666666666667
+        },
+        {
+          "k": 20,
+          "tp_circuit": 2,
+          "tp_copier": 1,
+          "fp": 18,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.125,
+          "precision": 0.1
+        },
+        {
+          "k": 25,
+          "tp_circuit": 2,
+          "tp_copier": 1,
+          "fp": 23,
+          "recall_circuit": 0.13333333333333333,
+          "recall_copier": 0.125,
+          "precision": 0.08
+        }
+      ],
+      "threshold_top": [
+        {
+          "k": 5,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 5,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 8,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 8,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 10,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 10,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 15,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 15,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 20,
+          "tp_circuit": 0,
+          "tp_copier": 0,
+          "fp": 20,
+          "recall_circuit": 0.0,
+          "recall_copier": 0.0,
+          "precision": 0.0
+        },
+        {
+          "k": 25,
+          "tp_circuit": 1,
+          "tp_copier": 0,
+          "fp": 24,
+          "recall_circuit": 0.06666666666666667,
+          "recall_copier": 0.0,
+          "precision": 0.04
+        }
+      ]
+    },
+    "ranked": [
+      {
+        "head": "L0H3",
+        "value": 0.12109283357858658,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H8",
+        "value": 0.12525713443756104,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H6",
+        "value": 0.13934940099716187,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H2",
+        "value": 0.1623978167772293,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H4",
+        "value": 0.1789049506187439,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H11",
+        "value": 0.1811358779668808,
+        "in_circuit": true,
+        "tier": "detector"
+      },
+      {
+        "head": "L1H3",
+        "value": 0.18961849808692932,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H2",
+        "value": 0.19838842749595642,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H5",
+        "value": 0.2060292810201645,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H3",
+        "value": 0.20744268596172333,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H5",
+        "value": 0.20801277458667755,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H3",
+        "value": 0.20829634368419647,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H1",
+        "value": 0.2083090990781784,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H7",
+        "value": 0.2088441401720047,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H3",
+        "value": 0.2124088853597641,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H7",
+        "value": 0.2128181904554367,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H0",
+        "value": 0.2172197550535202,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L0H2",
+        "value": 0.2281227707862854,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H4",
+        "value": 0.23044756054878235,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H0",
+        "value": 0.23244543373584747,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H8",
+        "value": 0.24134477972984314,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H10",
+        "value": 0.24158620834350586,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H11",
+        "value": 0.25164902210235596,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H9",
+        "value": 0.25255611538887024,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H0",
+        "value": 0.2546992897987366,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H11",
+        "value": 0.25690701603889465,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H8",
+        "value": 0.25742125511169434,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H7",
+        "value": 0.2646740972995758,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H1",
+        "value": 0.2664416432380676,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H5",
+        "value": 0.2729681432247162,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H9",
+        "value": 0.2787300944328308,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H11",
+        "value": 0.28434520959854126,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H0",
+        "value": 0.2859839200973511,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L1H9",
+        "value": 0.28635165095329285,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H7",
+        "value": 0.2917252779006958,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L2H10",
+        "value": 0.2983555197715759,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H0",
+        "value": 0.2998308837413788,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H6",
+        "value": 0.30639949440956116,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L0H9",
+        "value": 0.3152230381965637,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L1H5",
+        "value": 0.31802985072135925,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H0",
+        "value": 0.32749560475349426,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H11",
+        "value": 0.32750460505485535,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L1H2",
+        "value": 0.3340562880039215,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H10",
+        "value": 0.3345864415168762,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H5",
+        "value": 0.3349989652633667,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H10",
+        "value": 0.34493571519851685,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H7",
+        "value": 0.3477570712566376,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L8H4",
+        "value": 0.3597380518913269,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L6H8",
+        "value": 0.36537009477615356,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H6",
+        "value": 0.3673093318939209,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H0",
+        "value": 0.3705587089061737,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H8",
+        "value": 0.3762904107570648,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H7",
+        "value": 0.38220709562301636,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H11",
+        "value": 0.3983154594898224,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L5H4",
+        "value": 0.40894171595573425,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H10",
+        "value": 0.4167604148387909,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H1",
+        "value": 0.41960370540618896,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H4",
+        "value": 0.42584285140037537,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H11",
+        "value": 0.4351191818714142,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H1",
+        "value": 0.44591227173805237,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H7",
+        "value": 0.45678475499153137,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H8",
+        "value": 0.46140286326408386,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H2",
+        "value": 0.46370741724967957,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H4",
+        "value": 0.46720343828201294,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H2",
+        "value": 0.4688737094402313,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H9",
+        "value": 0.47002097964286804,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H1",
+        "value": 0.4802047312259674,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H6",
+        "value": 0.5059129595756531,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H6",
+        "value": 0.5197995901107788,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H1",
+        "value": 0.5203244686126709,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L1H1",
+        "value": 0.5294075608253479,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H8",
+        "value": 0.5300962924957275,
+        "in_circuit": true,
+        "tier": "backbone"
+      },
+      {
+        "head": "L11H11",
+        "value": 0.5338582396507263,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L6H7",
+        "value": 0.541630208492279,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H9",
+        "value": 0.5416911840438843,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H4",
+        "value": 0.5451791286468506,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H8",
+        "value": 0.5562207698822021,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H1",
+        "value": 0.559507429599762,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H9",
+        "value": 0.5671204328536987,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H10",
+        "value": 0.5707433223724365,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L2H6",
+        "value": 0.5909469723701477,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H5",
+        "value": 0.5929301977157593,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H0",
+        "value": 0.5950495004653931,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H5",
+        "value": 0.595877468585968,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H10",
+        "value": 0.5977221131324768,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L0H6",
+        "value": 0.6074153780937195,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H4",
+        "value": 0.6115675568580627,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H5",
+        "value": 0.6450769901275635,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H6",
+        "value": 0.6574437618255615,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H3",
+        "value": 0.6621737480163574,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L9H8",
+        "value": 0.6827709674835205,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H8",
+        "value": 0.6887966990470886,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L3H0",
+        "value": 0.7083131670951843,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H9",
+        "value": 0.7162654399871826,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H3",
+        "value": 0.7338452935218811,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H7",
+        "value": 0.7395742535591125,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H11",
+        "value": 0.7517984509468079,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H7",
+        "value": 0.7580592632293701,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L4H2",
+        "value": 0.765941858291626,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H3",
+        "value": 0.7721514105796814,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H3",
+        "value": 0.7779099345207214,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H10",
+        "value": 0.7917795777320862,
+        "in_circuit": true,
+        "tier": "copier"
+      },
+      {
+        "head": "L2H1",
+        "value": 0.8015094995498657,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H6",
+        "value": 0.8042259812355042,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H3",
+        "value": 0.8297917246818542,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H9",
+        "value": 0.8336132764816284,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H3",
+        "value": 0.8604888916015625,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H1",
+        "value": 0.8661943078041077,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H10",
+        "value": 0.8709686398506165,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H10",
+        "value": 0.8832682967185974,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H11",
+        "value": 0.919545590877533,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H10",
+        "value": 0.9261918663978577,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H1",
+        "value": 0.9266873002052307,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H2",
+        "value": 0.9339945912361145,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H2",
+        "value": 0.9823331236839294,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H0",
+        "value": 1.0026496648788452,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H1",
+        "value": 1.0308119058609009,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H9",
+        "value": 1.0486871004104614,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H5",
+        "value": 1.0665769577026367,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H9",
+        "value": 1.0876498222351074,
+        "in_circuit": true,
+        "tier": "readout"
+      },
+      {
+        "head": "L8H0",
+        "value": 1.152856469154358,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H7",
+        "value": 1.1726140975952148,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H4",
+        "value": 1.1747504472732544,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H4",
+        "value": 1.2190948724746704,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H7",
+        "value": 1.22615647315979,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H4",
+        "value": 1.2278536558151245,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H11",
+        "value": 1.3200416564941406,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H8",
+        "value": 1.3393632173538208,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H3",
+        "value": 1.3744467496871948,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H5",
+        "value": 1.375666856765747,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L5H9",
+        "value": 1.3802071809768677,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H5",
+        "value": 1.3992565870285034,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L6H6",
+        "value": 1.4662448167800903,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H2",
+        "value": 1.5733393430709839,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H2",
+        "value": 1.7711704969406128,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L7H6",
+        "value": 1.7857742309570312,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H4",
+        "value": 1.9972277879714966,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L8H2",
+        "value": 2.0834200382232666,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H6",
+        "value": 2.2631568908691406,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H10",
+        "value": 2.5199387073516846,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L9H11",
+        "value": 2.5365378856658936,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H0",
+        "value": 2.5758681297302246,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L10H5",
+        "value": 3.3105785846710205,
+        "in_circuit": false,
+        "tier": null
+      },
+      {
+        "head": "L11H8",
+        "value": 8.75257682800293,
+        "in_circuit": false,
+        "tier": null
+      }
+    ]
+  }
+}

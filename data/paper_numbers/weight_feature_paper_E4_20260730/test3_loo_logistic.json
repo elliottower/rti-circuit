@@ -1,0 +1,220 @@
+{
+  "test": "3_loo_logistic",
+  "C": 0.01,
+  "auroc": 0.711111111111111,
+  "top25_ranked": [
+    {
+      "head": "L11H10",
+      "prob": 0.459946175481587,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L11H3",
+      "prob": 0.3413164463072662,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L11H11",
+      "prob": 0.2977590829602047,
+      "in_circuit": true,
+      "tier": "readout"
+    },
+    {
+      "head": "L10H9",
+      "prob": 0.2674191911104696,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L10H5",
+      "prob": 0.20740818936205527,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L0H1",
+      "prob": 0.20434695166229527,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L0H5",
+      "prob": 0.17882118664281482,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L11H8",
+      "prob": 0.17220151262582378,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L9H3",
+      "prob": 0.15356027139869857,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L8H5",
+      "prob": 0.15291062724276344,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L8H8",
+      "prob": 0.15205246859413868,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L8H7",
+      "prob": 0.1511864185532496,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L0H6",
+      "prob": 0.15110828138898438,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L1H6",
+      "prob": 0.14394895952997558,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L10H11",
+      "prob": 0.14260782851998455,
+      "in_circuit": true,
+      "tier": "readout"
+    },
+    {
+      "head": "L11H2",
+      "prob": 0.14049076722657058,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L7H0",
+      "prob": 0.13834952598206707,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L9H0",
+      "prob": 0.13653621232155522,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L10H4",
+      "prob": 0.13647866142663062,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L3H11",
+      "prob": 0.13564083891131357,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L4H3",
+      "prob": 0.13159457074144768,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L6H7",
+      "prob": 0.13034388666057564,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L2H3",
+      "prob": 0.12887276239491682,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L7H1",
+      "prob": 0.1271670050431056,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L9H10",
+      "prob": 0.12460946968229066,
+      "in_circuit": true,
+      "tier": "copier"
+    }
+  ],
+  "topk_stats": {
+    "top10": {
+      "tp": 2,
+      "fp": 8,
+      "recall": 0.13333333333333333,
+      "precision": 0.2
+    },
+    "top15": {
+      "tp": 4,
+      "fp": 11,
+      "recall": 0.26666666666666666,
+      "precision": 0.26666666666666666
+    },
+    "top20": {
+      "tp": 5,
+      "fp": 15,
+      "recall": 0.3333333333333333,
+      "precision": 0.25
+    },
+    "top25": {
+      "tp": 6,
+      "fp": 19,
+      "recall": 0.4,
+      "precision": 0.24
+    }
+  },
+  "per_tier_recall": {
+    "backbone": {
+      "heads": {
+        "L0H11": 0.0804219624694408,
+        "L0H8": 0.09803520844797006,
+        "L0H9": 0.05632683606770376
+      },
+      "mean_prob": 0.07826133566170487
+    },
+    "detector": {
+      "heads": {
+        "L4H11": 0.10920367160257591
+      },
+      "mean_prob": 0.10920367160257591
+    },
+    "copier": {
+      "heads": {
+        "L4H0": 0.09967721960437316,
+        "L5H6": 0.10722929227376499,
+        "L5H7": 0.08752648571107279,
+        "L7H0": 0.13834952598206707,
+        "L8H4": 0.11345649517473781,
+        "L8H7": 0.1511864185532496,
+        "L9H10": 0.12460946968229066,
+        "L9H3": 0.15356027139869857
+      },
+      "mean_prob": 0.12194939729753183
+    },
+    "readout": {
+      "heads": {
+        "L10H11": 0.14260782851998455,
+        "L11H11": 0.2977590829602047,
+        "L11H9": 0.11250355309897454
+      },
+      "mean_prob": 0.18429015485972125
+    }
+  }
+}

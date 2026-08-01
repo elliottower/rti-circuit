@@ -1,0 +1,20 @@
+# Submissions (gitignored per convention)
+submissions/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+paper/weight_heatmap_discovery_v7.pdf
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store

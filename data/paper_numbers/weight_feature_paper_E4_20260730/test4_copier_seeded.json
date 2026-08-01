@@ -1,0 +1,266 @@
+{
+  "test": "4_copier_seeded",
+  "top5_copier_features": [
+    {
+      "feature": "k_align_ica8",
+      "auroc": 0.8419117647058824,
+      "sign": 1
+    },
+    {
+      "feature": "ov_ica1_signed",
+      "auroc": 0.8327205882352942,
+      "sign": 1
+    },
+    {
+      "feature": "ov_ica9_signed",
+      "auroc": 0.8033088235294117,
+      "sign": 1
+    },
+    {
+      "feature": "qk_top2_ratio",
+      "auroc": 0.7987132352941178,
+      "sign": -1
+    },
+    {
+      "feature": "ov_ica3_signed",
+      "auroc": 0.7941176470588236,
+      "sign": 1
+    }
+  ],
+  "seed_mean": 3.6850526114767472,
+  "rest_mean": -0.21676780067510337,
+  "threshold": 1.7341424054008219,
+  "n_flagged": 34,
+  "flagged_heads": [
+    {
+      "head": "L11H10",
+      "score": 12.88844436048885,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L10H9",
+      "score": 11.806659369471207,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L9H3",
+      "score": 6.854731207152212,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L4H11",
+      "score": 6.8212148572550095,
+      "in_circuit": true,
+      "tier": "detector"
+    },
+    {
+      "head": "L10H5",
+      "score": 6.432765082861149,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L11H3",
+      "score": 5.82402466435016,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L8H7",
+      "score": 5.174528822095891,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L9H10",
+      "score": 4.568546859112552,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L7H0",
+      "score": 4.269481690237824,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L11H5",
+      "score": 4.170649372375388,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L8H5",
+      "score": 4.161081254154785,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L8H4",
+      "score": 4.045822001817952,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L11H11",
+      "score": 3.2697673468866015,
+      "in_circuit": true,
+      "tier": "readout"
+    },
+    {
+      "head": "L7H8",
+      "score": 3.179912101418968,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L6H9",
+      "score": 3.089636414650723,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L11H1",
+      "score": 2.8410968584693523,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L8H8",
+      "score": 2.8262317467368057,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L6H8",
+      "score": 2.742315368643461,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L11H4",
+      "score": 2.6349176964426526,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L6H4",
+      "score": 2.5932868930971713,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L3H3",
+      "score": 2.5214503073936716,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L11H6",
+      "score": 2.3809908857190396,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L10H7",
+      "score": 2.3510846944396744,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L4H8",
+      "score": 2.2812929313466737,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L9H2",
+      "score": 2.2564000235212456,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L3H7",
+      "score": 2.246217660044978,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L7H5",
+      "score": 2.222400658652356,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L3H2",
+      "score": 2.2206348011711317,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L6H7",
+      "score": 2.1723140502776292,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L6H0",
+      "score": 2.0995314089964374,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L0H5",
+      "score": 1.8986615368555315,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L5H6",
+      "score": 1.8709826332468467,
+      "in_circuit": true,
+      "tier": "copier"
+    },
+    {
+      "head": "L8H6",
+      "score": 1.825238796626592,
+      "in_circuit": false,
+      "tier": null
+    },
+    {
+      "head": "L7H4",
+      "score": 1.7858459278543057,
+      "in_circuit": false,
+      "tier": null
+    }
+  ],
+  "tp": 8,
+  "fp": 26,
+  "total_recall": 0.5333333333333333,
+  "precision": 0.23529411764705882,
+  "per_tier": {
+    "backbone": {
+      "recovered": 0,
+      "total": 3,
+      "recall": 0.0
+    },
+    "detector": {
+      "recovered": 1,
+      "total": 1,
+      "recall": 1.0
+    },
+    "copier": {
+      "recovered": 6,
+      "total": 8,
+      "recall": 0.75
+    },
+    "readout": {
+      "recovered": 1,
+      "total": 3,
+      "recall": 0.3333333333333333
+    }
+  }
+}

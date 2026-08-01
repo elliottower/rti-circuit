@@ -1,0 +1,412 @@
+{
+  "backbone": {
+    "ov_diag_score": {
+      "auroc": 0.6170212765957447,
+      "direction": "low",
+      "best_f1": 0.08333333333333333,
+      "best_threshold": 0.08953021372459373,
+      "tp": 3,
+      "fp": 66,
+      "fn": 0,
+      "n_positive": 3
+    },
+    "qk_same_score": {
+      "auroc": 0.607565011820331,
+      "direction": "low",
+      "best_f1": 0.07142857142857142,
+      "best_threshold": -0.02154901710642996,
+      "tp": 2,
+      "fp": 51,
+      "fn": 1,
+      "n_positive": 3
+    },
+    "ov_fro_norm": {
+      "auroc": 0.806146572104019,
+      "direction": "low",
+      "best_f1": 0.15,
+      "best_threshold": 13.66710090637207,
+      "tp": 3,
+      "fp": 34,
+      "fn": 0,
+      "n_positive": 3
+    },
+    "qk_fro_norm": {
+      "auroc": 0.91725768321513,
+      "direction": "low",
+      "best_f1": 0.30769230769230765,
+      "best_threshold": 4.974346160888672,
+      "tp": 2,
+      "fp": 8,
+      "fn": 1,
+      "n_positive": 3
+    },
+    "ov_vertical_band": {
+      "auroc": 0.7139479905437353,
+      "direction": "high",
+      "best_f1": 0.4,
+      "best_threshold": 0.6036443297234974,
+      "tp": 1,
+      "fp": 1,
+      "fn": 2,
+      "n_positive": 3
+    },
+    "qk_query_specificity": {
+      "auroc": 0.7825059101654847,
+      "direction": "low",
+      "best_f1": 0.3333333333333333,
+      "best_threshold": 0.09179241709080736,
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "n_positive": 3
+    },
+    "qk_key_specificity": {
+      "auroc": 0.5390070921985816,
+      "direction": "high",
+      "best_f1": 0.18181818181818182,
+      "best_threshold": 0.5003849188050183,
+      "tp": 1,
+      "fp": 7,
+      "fn": 2,
+      "n_positive": 3
+    },
+    "combined_abs_ov_qk": {
+      "auroc": 0.07801418439716312,
+      "direction": "high",
+      "best_f1": 0.04316546762589929,
+      "best_threshold": 0.1110792308310237,
+      "tp": 3,
+      "fp": 133,
+      "fn": 0,
+      "n_positive": 3
+    }
+  },
+  "detector": {
+    "ov_diag_score": {
+      "auroc": 0.5874125874125874,
+      "direction": "high",
+      "best_f1": 0.03278688524590164,
+      "best_threshold": 0.21133473790421778,
+      "tp": 1,
+      "fp": 59,
+      "fn": 0,
+      "n_positive": 1
+    },
+    "qk_same_score": {
+      "auroc": 0.7482517482517482,
+      "direction": "high",
+      "best_f1": 0.052631578947368425,
+      "best_threshold": 0.09690397447469279,
+      "tp": 1,
+      "fp": 36,
+      "fn": 0,
+      "n_positive": 1
+    },
+    "ov_fro_norm": {
+      "auroc": 0.986013986013986,
+      "direction": "low",
+      "best_f1": 0.5,
+      "best_threshold": 7.246232509613037,
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_positive": 1
+    },
+    "qk_fro_norm": {
+      "auroc": 1.0,
+      "direction": "high",
+      "best_f1": 1.0,
+      "best_threshold": 58.16282272338867,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_positive": 1
+    },
+    "ov_vertical_band": {
+      "auroc": 0.8251748251748252,
+      "direction": "high",
+      "best_f1": 0.07407407407407407,
+      "best_threshold": 0.37757191024333014,
+      "tp": 1,
+      "fp": 25,
+      "fn": 0,
+      "n_positive": 1
+    },
+    "qk_query_specificity": {
+      "auroc": 0.8881118881118881,
+      "direction": "high",
+      "best_f1": 0.1111111111111111,
+      "best_threshold": 0.4618111901974151,
+      "tp": 1,
+      "fp": 16,
+      "fn": 0,
+      "n_positive": 1
+    },
+    "qk_key_specificity": {
+      "auroc": 0.9230769230769231,
+      "direction": "low",
+      "best_f1": 0.15384615384615385,
+      "best_threshold": 0.1368588990425559,
+      "tp": 1,
+      "fp": 11,
+      "fn": 0,
+      "n_positive": 1
+    },
+    "combined_abs_ov_qk": {
+      "auroc": 0.32167832167832167,
+      "direction": "high",
+      "best_f1": 0.020202020202020204,
+      "best_threshold": 0.30823871237891054,
+      "tp": 1,
+      "fp": 97,
+      "fn": 0,
+      "n_positive": 1
+    }
+  },
+  "copier": {
+    "ov_diag_score": {
+      "auroc": 0.7720588235294118,
+      "direction": "high",
+      "best_f1": 0.3225806451612903,
+      "best_threshold": 0.6614195336614337,
+      "tp": 5,
+      "fp": 18,
+      "fn": 3,
+      "n_positive": 8
+    },
+    "qk_same_score": {
+      "auroc": 0.515625,
+      "direction": "high",
+      "best_f1": 0.1523809523809524,
+      "best_threshold": -0.03884686979712272,
+      "tp": 8,
+      "fp": 89,
+      "fn": 0,
+      "n_positive": 8
+    },
+    "ov_fro_norm": {
+      "auroc": 0.6176470588235294,
+      "direction": "low",
+      "best_f1": 0.17073170731707316,
+      "best_threshold": 25.519929885864258,
+      "tp": 7,
+      "fp": 67,
+      "fn": 1,
+      "n_positive": 8
+    },
+    "qk_fro_norm": {
+      "auroc": 0.5790441176470589,
+      "direction": "high",
+      "best_f1": 0.163265306122449,
+      "best_threshold": 12.443480491638184,
+      "tp": 8,
+      "fp": 82,
+      "fn": 0,
+      "n_positive": 8
+    },
+    "ov_vertical_band": {
+      "auroc": 0.6534926470588235,
+      "direction": "low",
+      "best_f1": 0.19999999999999998,
+      "best_threshold": 0.16886480948180535,
+      "tp": 3,
+      "fp": 19,
+      "fn": 5,
+      "n_positive": 8
+    },
+    "qk_query_specificity": {
+      "auroc": 0.7077205882352942,
+      "direction": "high",
+      "best_f1": 0.21428571428571427,
+      "best_threshold": 0.3493033079609046,
+      "tp": 6,
+      "fp": 42,
+      "fn": 2,
+      "n_positive": 8
+    },
+    "qk_key_specificity": {
+      "auroc": 0.5579044117647058,
+      "direction": "low",
+      "best_f1": 0.15730337078651688,
+      "best_threshold": 0.3120207827300265,
+      "tp": 7,
+      "fp": 74,
+      "fn": 1,
+      "n_positive": 8
+    },
+    "combined_abs_ov_qk": {
+      "auroc": 0.5845588235294118,
+      "direction": "high",
+      "best_f1": 0.1818181818181818,
+      "best_threshold": 0.6711116127882686,
+      "tp": 5,
+      "fp": 42,
+      "fn": 3,
+      "n_positive": 8
+    }
+  },
+  "readout": {
+    "ov_diag_score": {
+      "auroc": 0.8439716312056738,
+      "direction": "high",
+      "best_f1": 0.25,
+      "best_threshold": 2.1524274370621663,
+      "tp": 1,
+      "fp": 4,
+      "fn": 2,
+      "n_positive": 3
+    },
+    "qk_same_score": {
+      "auroc": 0.5484633569739953,
+      "direction": "high",
+      "best_f1": 0.07142857142857142,
+      "best_threshold": 0.056644006821574,
+      "tp": 2,
+      "fp": 51,
+      "fn": 1,
+      "n_positive": 3
+    },
+    "ov_fro_norm": {
+      "auroc": 0.8676122931442081,
+      "direction": "high",
+      "best_f1": 0.5,
+      "best_threshold": 90.39976501464844,
+      "tp": 2,
+      "fp": 3,
+      "fn": 1,
+      "n_positive": 3
+    },
+    "qk_fro_norm": {
+      "auroc": 0.8037825059101655,
+      "direction": "high",
+      "best_f1": 0.16,
+      "best_threshold": 18.239498138427734,
+      "tp": 2,
+      "fp": 20,
+      "fn": 1,
+      "n_positive": 3
+    },
+    "ov_vertical_band": {
+      "auroc": 0.5177304964539007,
+      "direction": "low",
+      "best_f1": 0.3333333333333333,
+      "best_threshold": 0.10487379317935837,
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "n_positive": 3
+    },
+    "qk_query_specificity": {
+      "auroc": 0.8368794326241135,
+      "direction": "high",
+      "best_f1": 0.4,
+      "best_threshold": 0.7374826553341519,
+      "tp": 1,
+      "fp": 1,
+      "fn": 2,
+      "n_positive": 3
+    },
+    "qk_key_specificity": {
+      "auroc": 0.6264775413711584,
+      "direction": "high",
+      "best_f1": 0.1904761904761905,
+      "best_threshold": 0.4430370368440767,
+      "tp": 2,
+      "fp": 16,
+      "fn": 1,
+      "n_positive": 3
+    },
+    "combined_abs_ov_qk": {
+      "auroc": 0.7423167848699763,
+      "direction": "high",
+      "best_f1": 0.2222222222222222,
+      "best_threshold": 2.2185308412751374,
+      "tp": 1,
+      "fp": 5,
+      "fn": 2,
+      "n_positive": 3
+    }
+  },
+  "any_circuit": {
+    "ov_diag_score": {
+      "auroc": 0.7090439276485788,
+      "direction": "high",
+      "best_f1": 0.339622641509434,
+      "best_threshold": 0.43508603329561196,
+      "tp": 9,
+      "fp": 29,
+      "fn": 6,
+      "n_positive": 15
+    },
+    "qk_same_score": {
+      "auroc": 0.5142118863049095,
+      "direction": "high",
+      "best_f1": 0.24000000000000002,
+      "best_threshold": -0.06731423253155484,
+      "tp": 15,
+      "fp": 95,
+      "fn": 0,
+      "n_positive": 15
+    },
+    "ov_fro_norm": {
+      "auroc": 0.5886304909560723,
+      "direction": "low",
+      "best_f1": 0.24719101123595505,
+      "best_threshold": 25.519929885864258,
+      "tp": 11,
+      "fp": 63,
+      "fn": 4,
+      "n_positive": 15
+    },
+    "qk_fro_norm": {
+      "auroc": 0.5565891472868217,
+      "direction": "high",
+      "best_f1": 0.26086956521739135,
+      "best_threshold": 16.84978485107422,
+      "tp": 6,
+      "fp": 25,
+      "fn": 9,
+      "n_positive": 15
+    },
+    "ov_vertical_band": {
+      "auroc": 0.5193798449612403,
+      "direction": "low",
+      "best_f1": 0.21818181818181814,
+      "best_threshold": 0.21558248789454063,
+      "tp": 6,
+      "fp": 34,
+      "fn": 9,
+      "n_positive": 15
+    },
+    "qk_query_specificity": {
+      "auroc": 0.6573643410852713,
+      "direction": "high",
+      "best_f1": 0.3058823529411765,
+      "best_threshold": 0.3087250436202715,
+      "tp": 13,
+      "fp": 57,
+      "fn": 2,
+      "n_positive": 15
+    },
+    "qk_key_specificity": {
+      "auroc": 0.5276485788113695,
+      "direction": "low",
+      "best_f1": 0.2222222222222222,
+      "best_threshold": 0.31511186003776304,
+      "tp": 11,
+      "fp": 73,
+      "fn": 4,
+      "n_positive": 15
+    },
+    "combined_abs_ov_qk": {
+      "auroc": 0.49509043927648577,
+      "direction": "high",
+      "best_f1": 0.22222222222222224,
+      "best_threshold": 0.5481844073169085,
+      "tp": 8,
+      "fp": 49,
+      "fn": 7,
+      "n_positive": 15
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "L0H11": {
+    "tier": "backbone",
+    "n_prompts": 189,
+    "mean_preference": -0.8051707976246401,
+    "ci_95_lo": -0.8182517832753657,
+    "ci_95_hi": -0.7919839659992793,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.09143883928029467
+  },
+  "L0H8": {
+    "tier": "backbone",
+    "n_prompts": 189,
+    "mean_preference": -0.6365751445610027,
+    "ci_95_lo": -0.6814837234306627,
+    "ci_95_hi": -0.591251836400128,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.31649288590374774
+  },
+  "L0H9": {
+    "tier": "backbone",
+    "n_prompts": 189,
+    "mean_preference": -0.7921759740365718,
+    "ci_95_lo": -0.8075714651790876,
+    "ci_95_hi": -0.775991894120459,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.1111229103796668
+  },
+  "L10H11": {
+    "tier": "readout",
+    "n_prompts": 189,
+    "mean_preference": -0.8865520274840593,
+    "ci_95_lo": -0.9013034536109262,
+    "ci_95_hi": -0.8708253864899869,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.1084392999553084
+  },
+  "L11H11": {
+    "tier": "readout",
+    "n_prompts": 189,
+    "mean_preference": -0.8987028257869155,
+    "ci_95_lo": -0.9180375126124122,
+    "ci_95_hi": -0.8782047074668229,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.13880069067343923
+  },
+  "L11H9": {
+    "tier": "readout",
+    "n_prompts": 189,
+    "mean_preference": -0.9465645940384347,
+    "ci_95_lo": -0.9562688825945341,
+    "ci_95_hi": -0.9358243446660064,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.07200640594793874
+  },
+  "L4H0": {
+    "tier": "copier",
+    "n_prompts": 189,
+    "mean_preference": -0.9001143276751872,
+    "ci_95_lo": -0.9150201596019176,
+    "ci_95_hi": -0.8838303455084615,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.10878498200605916
+  },
+  "L4H11": {
+    "tier": "detector",
+    "n_prompts": 189,
+    "mean_preference": -0.9992638655080242,
+    "ci_95_lo": -0.9995741249932247,
+    "ci_95_hi": -0.9988861455725815,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.0023579107609554826
+  },
+  "L5H6": {
+    "tier": "copier",
+    "n_prompts": 189,
+    "mean_preference": -0.9612859483117507,
+    "ci_95_lo": -0.9671445907883318,
+    "ci_95_hi": -0.9549927539145294,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.042822812985799576
+  },
+  "L5H7": {
+    "tier": "copier",
+    "n_prompts": 189,
+    "mean_preference": -0.9341004644354081,
+    "ci_95_lo": -0.9430077702282293,
+    "ci_95_hi": -0.9252395613443083,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.06135064763537908
+  },
+  "L7H0": {
+    "tier": "copier",
+    "n_prompts": 189,
+    "mean_preference": -0.9560264679308896,
+    "ci_95_lo": -0.9612689140088878,
+    "ci_95_hi": -0.9503883685055774,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.03819503181080343
+  },
+  "L8H4": {
+    "tier": "copier",
+    "n_prompts": 189,
+    "mean_preference": -0.94930980040665,
+    "ci_95_lo": -0.9545322605686369,
+    "ci_95_hi": -0.9438629090391125,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.03743821206817527
+  },
+  "L8H7": {
+    "tier": "copier",
+    "n_prompts": 189,
+    "mean_preference": -0.9072864685571688,
+    "ci_95_lo": -0.9217253045272354,
+    "ci_95_hi": -0.8921927938439924,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.10523827531800177
+  },
+  "L9H10": {
+    "tier": "copier",
+    "n_prompts": 189,
+    "mean_preference": -0.9393146901671359,
+    "ci_95_lo": -0.9470896971918226,
+    "ci_95_hi": -0.9312642021858675,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.05585987692165298
+  },
+  "L9H3": {
+    "tier": "copier",
+    "n_prompts": 189,
+    "mean_preference": -0.842038751743511,
+    "ci_95_lo": -0.8581777810399659,
+    "ci_95_hi": -0.8250296319822146,
+    "ci_excludes_zero": true,
+    "direction": "UNIQUE",
+    "std": 0.11731600806449394
+  }
+}

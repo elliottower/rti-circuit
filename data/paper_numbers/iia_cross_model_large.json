@@ -1,0 +1,284 @@
+{
+  "ioi": {
+    "task": "ioi",
+    "model": "gpt2-large",
+    "n_pairs": 80,
+    "roles": {
+      "PTH": {
+        "n_heads": 1,
+        "heads": [
+          "L14H1"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 80,
+        "n_skipped_pairs": 0,
+        "mean_logit_shift_predicted": 0.0948875904083252,
+        "mean_logit_shift_control": 0.008345506191253663
+      },
+      "S-Inh": {
+        "n_heads": 2,
+        "heads": [
+          "L1H6",
+          "L29H3"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 80,
+        "n_skipped_pairs": 0,
+        "mean_logit_shift_predicted": 0.0001735687255859375,
+        "mean_logit_shift_control": 0.0025257086753845215
+      },
+      "NM": {
+        "n_heads": 1,
+        "heads": [
+          "L22H17"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 80,
+        "n_skipped_pairs": 0,
+        "mean_logit_shift_predicted": 0.005085384845733643,
+        "mean_logit_shift_control": 0.023470215797424317
+      },
+      "NegNM": {
+        "n_heads": 1,
+        "heads": [
+          "L34H6"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 80,
+        "n_skipped_pairs": 0,
+        "mean_logit_shift_predicted": 0.03497655391693115,
+        "mean_logit_shift_control": 0.00019103765487670893
+      }
+    },
+    "full_circuit": {
+      "n_heads": 5,
+      "iia_predicted": 0.0,
+      "iia_control_mean": 0.0,
+      "iia_control_std": 0.0,
+      "iia_control_all": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta": 0.0,
+      "n_valid_pairs": 80,
+      "n_skipped_pairs": 0,
+      "mean_logit_shift_predicted": 0.13375054597854613,
+      "mean_logit_shift_control": 0.04245821595191956
+    }
+  },
+  "sva": {
+    "task": "sva",
+    "model": "gpt2-large",
+    "n_pairs": 80,
+    "roles": {
+      "encode": {
+        "n_heads": 5,
+        "heads": [
+          "L5H13",
+          "L5H15",
+          "L7H15",
+          "L18H15",
+          "L29H1"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 72,
+        "n_skipped_pairs": 8,
+        "mean_logit_shift_predicted": 0.014623022741741605,
+        "mean_logit_shift_control": 0.03632603353924222
+      },
+      "output": {
+        "n_heads": 2,
+        "heads": [
+          "L29H10",
+          "L35H13"
+        ],
+        "iia_predicted": 0.0,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.0,
+        "n_valid_pairs": 72,
+        "n_skipped_pairs": 8,
+        "mean_logit_shift_predicted": 0.0020882884661356607,
+        "mean_logit_shift_control": 0.001047652628686693
+      }
+    },
+    "full_circuit": {
+      "n_heads": 7,
+      "iia_predicted": 0.0,
+      "iia_control_mean": 0.0,
+      "iia_control_std": 0.0,
+      "iia_control_all": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta": 0.0,
+      "n_valid_pairs": 72,
+      "n_skipped_pairs": 8,
+      "mean_logit_shift_predicted": 0.016699635320239596,
+      "mean_logit_shift_control": 0.020787393384509616
+    }
+  },
+  "greater_than": {
+    "task": "greater_than",
+    "model": "gpt2-large",
+    "n_pairs": 80,
+    "roles": {
+      "early_gt": {
+        "n_heads": 5,
+        "heads": [
+          "L0H0",
+          "L0H8",
+          "L0H14",
+          "L7H6",
+          "L13H12"
+        ],
+        "iia_predicted": 0.9090909090909091,
+        "iia_control_mean": 0.0,
+        "iia_control_std": 0.0,
+        "iia_control_all": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta": 0.9090909090909091,
+        "n_valid_pairs": 33,
+        "n_skipped_pairs": 47,
+        "mean_logit_shift_predicted": 1.8782518271243933,
+        "mean_logit_shift_control": -0.00038509368896484365
+      }
+    },
+    "full_circuit": {
+      "n_heads": 5,
+      "iia_predicted": 0.9090909090909091,
+      "iia_control_mean": 0.0030303030303030303,
+      "iia_control_std": 0.00909090909090909,
+      "iia_control_all": [
+        0.0,
+        0.030303030303030304,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta": 0.906060606060606,
+      "n_valid_pairs": 33,
+      "n_skipped_pairs": 47,
+      "mean_logit_shift_predicted": 1.8782518271243933,
+      "mean_logit_shift_control": 0.0038227514787153765
+    }
+  }
+}
