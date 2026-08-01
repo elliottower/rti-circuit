@@ -1,4 +1,4 @@
-# A Distributed Circuit in GPT-2 Found from Weights and Missed by Activation-Based Discovery
+# Weight-Space Discovery of an Epistatic Circuit Invisible to Activation-Based Methods
 
 Code, data, and figures for the RTI (Repeated Token Identification) circuit paper.
 
@@ -31,7 +31,7 @@ lab_notebooks/      Discovery chronicle and distilled lab notebook
 
 ```bibtex
 @article{tower2026rti,
-  title={A Distributed Circuit in {GPT}-2 Found from Weights and Missed by Activation-Based Discovery},
+  title={Weight-Space Discovery of an Epistatic Circuit Invisible to Activation-Based Methods},
   author={Tower, Elliot},
   year={2026},
 }
